@@ -1,0 +1,706 @@
+.z-w {
+  width: 1180px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.z-w a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+fieldset {
+  padding: .35em .625em .75em;
+  margin: 0 2px;
+  border: 1px solid silver;
+}
+legend {
+  padding: .5em;
+  border: 0;
+  width: auto;
+}
+.disn {
+  display: none;
+}
+.disb {
+  display: block;
+}
+.sanjiaoxin {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  border-left: 5px solid #fff;
+}
+.content-first-sc {
+  padding-top: 50px;
+}
+.content-first-sc .cf-left-sc {
+  float: left;
+  width: 352px;
+  height: 380px;
+  border: 2px solid #0C478E;
+  position: relative;
+}
+.content-first-sc .cf-left-sc .p_logo {
+  height: 37px;
+  background-color: #0C478E;
+}
+.content-first-sc .cf-left-sc .p_logo .i_logo {
+  display: inline-block;
+  width: 250px;
+  height: 37px;
+  background: url(../images/sky/skysealogo.png) no-repeat;
+}
+.content-first-sc .cf-left-sc .filter-option {
+  width: 348px;
+  background-color: #fff;
+  position: relative;
+}
+.content-first-sc .cf-left-sc .filter-option .option {
+  border-top: 1px solid #ccc;
+  width: 348px;
+  padding-left: 13px;
+  position: relative;
+  cursor: pointer;
+}
+.content-first-sc .cf-left-sc .filter-option .option a {
+  color: #000000;
+}
+.content-first-sc .cf-left-sc .filter-option .option a:hover {
+  text-decoration: underline;
+}
+.content-first-sc .cf-left-sc .filter-option .option dl {
+  overflow: hidden;
+}
+.content-first-sc .cf-left-sc .filter-option .option .content {
+  height: 75px;
+}
+.content-first-sc .cf-left-sc .filter-option .option dt {
+  padding-top: 9px;
+}
+.content-first-sc .cf-left-sc .filter-option .option .iconskysea {
+  display: inline-block;
+  background-image: url(../images/sky/sprit.png);
+}
+.content-first-sc .cf-left-sc .filter-option .option .iaddress {
+  width: 23px;
+  height: 23px;
+  background-position: -9px -272px;
+}
+.content-first-sc .cf-left-sc .filter-option .option .idate {
+  width: 26px;
+  height: 26px;
+  background-position: -48px -272px;
+}
+.content-first-sc .cf-left-sc .filter-option .option .idays {
+  width: 26px;
+  height: 26px;
+  background-position: -88px -272px;
+}
+.content-first-sc .cf-left-sc .filter-option .option .ifavor {
+  width: 26px;
+  height: 26px;
+  background-position: -126px -272px;
+}
+.content-first-sc .cf-left-sc .filter-option .option .iconpos {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+.content-first-sc .cf-left-sc .filter-option .option span {
+  color: #2596e3;
+  margin-left: 36px;
+  font-size: 14px;
+}
+.content-first-sc .cf-left-sc .filter-option .option .country {
+  font-size: 14px;
+  width: 50px;
+  display: inline-block;
+  line-height: 27px;
+}
+.content-first-sc .cf-left-sc .filter-option .option .inner-box {
+  padding-top: 7px;
+  display: inline-block;
+  width: 280px;
+}
+.content-first-sc .cf-left-sc .filter-option .option .lines {
+  margin-top: -5px;
+}
+.content-first-sc .cf-left-sc .filter-option .option .lines .country {
+  vertical-align: top;
+  padding-top: 15px;
+}
+.content-first-sc .cf-left-sc .filter-option .option .lines .inner-box {
+  font-size: 14px;
+  padding-top: 18px;
+}
+.content-first-sc .cf-left-sc .i_lastlogo {
+  width: 142px;
+  height: 30px;
+  position: absolute;
+  bottom: 7px;
+  left: 100px;
+  background: url(../images/sky/lastlogo.png);
+}
+.content-first-sc .cf-right-sc {
+  float: right;
+  width: 817px;
+  height: 230px;
+}
+.content-first-sc .cf-right-sc .slide {
+  width: 817px;
+  height: 230px;
+}
+.content-first-sc .cf-right-sc .slide .carousel-indicators {
+  left: 95%;
+  width: 34%;
+}
+.content-first-sc .cf-right-sc .slide .carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #fff;
+  background-color: #02B2E7;
+}
+.content-first-sc .cf-right-sc .slide .carousel-indicators .active {
+  background-color: #FFCC45;
+}
+.content-first-sc .cf-right-sc .cfr-image-sc .tianhai {
+  width: 817px;
+  height: 23px;
+  margin: 10px 0;
+  background-image: url(../images/sky/tianhai.png);
+}
+.content-first-sc .cf-right-sc .cfr-image-sc p {
+  float: left;
+  width: 267px;
+  height: 107px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+.content-first-sc .cf-right-sc .cfr-image-sc p:hover {
+  box-shadow: 2px 2px 2px #D4D1CC;
+}
+.content-second-sc {
+  margin-top: 20px;
+  width: 1180px;
+  height: 540px;
+  position: relative;
+  background: url(../images/sky/sky7.jpg) no-repeat 0 0;
+}
+.content-second-sc .clearfix {
+  float: right;
+  width: 956px;
+  height: 210px;
+  margin-top: 20px;
+  position: relative;
+}
+.content-second-sc .clearfix li {
+  float: left;
+  height: 221px;
+  width: 228px;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+.content-second-sc .clearfix li:hover {
+  border: 1px solid #0BC2F7;
+}
+.content-second-sc .clearfix li .cs-show-cr {
+  width: 210px;
+  padding: 9px;
+  text-align: center;
+  position: relative;
+}
+.content-second-sc .clearfix li .cs-show-cr img {
+  width: 210px;
+}
+.content-second-sc .clearfix li .cs-show-cr p {
+  text-align: left;
+}
+.content-second-sc .clearfix li .cs-show-cr .title {
+  font-size: 14px;
+  color: #323534;
+  height: 45px;
+}
+.content-second-sc .clearfix li .cs-show-cr .yellow {
+  font-size: 12px;
+  color: #FF9302;
+  height: 20px;
+}
+.content-second-sc .clearfix li .cs-show-cr .chufa span {
+  float: left;
+  font-size: 12px;
+  color: #323534;
+  line-height: 30px;
+  margin-right: 10px;
+}
+.content-second-sc .clearfix li .cs-show-cr .chufa .price {
+  float: right;
+  color: #FF9302;
+}
+.content-second-sc .clearfix li .cs-show-cr .chufa .price em {
+  font-size: 16px;
+}
+.content-second-sc .clearfix li .cs-show-cr .cs-tips {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #FF9302;
+  color: #fff;
+}
+.content-second-sc .cr-fixed-sc {
+  position: absolute;
+  left: 65px;
+  height: 30px;
+  width: 70px;
+  color: #fff;
+  font-size: 16px;
+}
+.content-second-sc .cr-fixed1-sc {
+  top: 201px;
+}
+.content-second-sc .cr-fixed2-sc {
+  top: 255px;
+  left: 43px;
+  width: 114px;
+}
+.content-second-sc .cr-fixed3-sc {
+  top: 307px;
+}
+.content-third-sc .ct-title-sc {
+  padding-top: 20px;
+}
+.content-third-sc .ct-title-sc legend {
+  font-size: 26px;
+}
+.content-third-sc .ct-title-sc h3 {
+  font-size: 14px;
+  color: #9BA2B9;
+  line-height: 20px;
+}
+.content-third-sc .ct-title-sc p {
+  margin-top: 20px;
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #178FDF;
+  color: #178FDF;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.content-third-sc .ct-title-sc p:hover {
+  background-color: #178FDF;
+  color: #fff;
+}
+.content-third-sc .ct-container-sc {
+  margin-top: 30px;
+}
+.content-third-sc .ct-container-sc .ct-show-sc {
+  float: right;
+  width: 568px;
+  height: 390px;
+}
+.content-third-sc .ct-container-sc .ct-show-sc .ct-shows {
+  float: left;
+  cursor: pointer;
+  width: 280px;
+  height: 183px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+}
+.content-third-sc .ct-container-sc .ct-show-sc .ct-shows p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  margin-top: 134px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.content-third-sc .ct-container-sc .ct-show-sc .ct1 {
+  background: url(../images/sky/sky8.jpg) 0 0 no-repeat;
+}
+.content-third-sc .ct-container-sc .ct-show-sc .ct2 {
+  background: url(../images/sky/sky11.jpg) 0 0 no-repeat;
+}
+.content-third-sc .ct-container-sc .ct-show-sc .ct3 {
+  background: url(../images/sky/sky12.jpg) 0 0 no-repeat;
+}
+.content-third-sc .ct-container-sc .ct-show-sc .ct4 {
+  background: url(../images/sky/sky10.jpg) 0 0 no-repeat;
+}
+.half-sc {
+  width: 1300px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.half-sc .content-four-sc .cf-title-sc {
+  margin-top: 20px;
+}
+.half-sc .content-four-sc .con-sc {
+  width: 100%;
+  height: 80px;
+  border: 2px solid #ddd;
+  vertical-align: middle;
+}
+.half-sc .content-four-sc .con-sc .clearfix {
+  display: block;
+}
+.half-sc .content-four-sc .con-sc .clearfix li {
+  float: left;
+  padding: 0 70px;
+  text-align: center;
+}
+.half-sc .content-four-sc .con-sc .clearfix li h4 {
+  font-size: 16px;
+  margin-top: 11px;
+}
+.half-sc .content-four-sc .con-sc .clearfix li .score {
+  font-size: 14px;
+}
+.half-sc .content-four-sc .con-sc .clearfix li .score em {
+  font-size: 24px;
+  color: #2577e3;
+}
+.half-sc .content-four-sc .con-sc .clearfix .score-pic {
+  text-align: left;
+  padding-top: 24px;
+}
+.half-sc .content-four-sc .con-sc .clearfix .score-pic .bigscore {
+  display: inline-block;
+  position: relative;
+  width: 136px;
+  height: 24px;
+  background-image: url(../images/sky/sprit_1.png);
+  background-position: -250px 0;
+  margin-right: 5px;
+}
+.half-sc .content-four-sc .con-sc .clearfix .score-pic .bigscore .b {
+  display: inline-block;
+  position: relative;
+  background-image: url(../images/sky/sprit_1.png);
+  height: 24px;
+  background-position: -250px -26px;
+  width: 130px;
+}
+.half-sc .judgeinfo .more {
+  text-align: right;
+  margin: 14px auto 8px;
+}
+.half-sc .judgeinfo .more a {
+  color: #3890e1;
+  padding-right: 60px;
+}
+.half-sc .judgeinfo .iconskysea {
+  display: inline-block;
+  position: relative;
+  background: url(../images/sky/sprit_1.png) no-repeat;
+}
+.half-sc .judgeinfo .comment-list {
+  position: relative;
+  padding-bottom: 50px;
+}
+.half-sc .judgeinfo .comment-list .comment-user {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 140px;
+  text-align: center;
+}
+.half-sc .judgeinfo .comment-list .comment-user .user-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.half-sc .judgeinfo .comment-list .comment-user .user-img img {
+  border: 0 none;
+  vertical-align: middle;
+}
+.half-sc .judgeinfo .comment-list .comment-user .user-name {
+  padding-top: 5px;
+}
+.half-sc .judgeinfo .comment-list .comment-user .comment-time {
+  color: #999;
+}
+.half-sc .judgeinfo .comment-list .comment-user .comment-time i {
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.half-sc .judgeinfo .comment-list .comment-user .comment-time .iphone {
+  width: 11px;
+  height: 14px;
+  background-position: -471px 0;
+}
+.half-sc .judgeinfo .comment-list .comment-main {
+  margin-left: 160px;
+  border: 2px solid #ddd;
+  width: 976px;
+  position: relative;
+  padding: 10px 20px 10px;
+  font-size: 14px;
+}
+.half-sc .judgeinfo .comment-list .comment-main .triangleleft::after,
+.half-sc .judgeinfo .comment-list .comment-main .triangleleft::before {
+  position: absolute;
+  top: 20px;
+  left: -17px;
+  content: "";
+  display: block;
+  border-width: 8px;
+  border-style: dashed solid dashed dashed;
+  border-color: transparent #ddd transparent transparent;
+  font-size: 0;
+  line-height: 0;
+}
+.half-sc .judgeinfo .comment-list .comment-main .comment-score {
+  margin-bottom: 10px;
+}
+.half-sc .judgeinfo .comment-list .comment-main .comment-score .clearfix {
+  display: block;
+}
+.half-sc .judgeinfo .comment-list .comment-main .comment-score .clearfix li {
+  float: left;
+  margin-right: 20px;
+}
+.half-sc .judgeinfo .comment-list .comment-main .comment-score .clearfix li em {
+  color: #3890e1;
+  margin-left: 5px;
+}
+.half-sc .judgeinfo .comment-list .comment-main .commit-text {
+  position: relative;
+}
+.half-sc .judgeinfo .comment-list .comment-main .commit-text a {
+  color: #2178e4;
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+  background-color: #fff;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.half-sc .judgeinfo .comment-list .comment-main .comment-pic ul {
+  float: left;
+  display: block;
+}
+.half-sc .judgeinfo .comment-list .comment-main .comment-pic ul li {
+  width: 60px;
+  height: 60px;
+  margin: 10px 10px 0px 0px;
+  float: left;
+  cursor: pointer;
+}
+.half-sc .judgeinfo .comment-list .comment-main .voyage-info {
+  padding-top: 90px;
+  color: #b2b2b2;
+}
+.content-five-sc .iconskysea {
+  display: inline-block;
+  position: relative;
+  background: url(../images/sky/sprit_1.png) no-repeat;
+}
+.content-five-sc .link {
+  margin-bottom: 30px;
+  width: 1180px;
+  margin: 15px auto 0;
+}
+.content-five-sc .link .jumplink {
+  margin: 30px 0;
+  text-align: center;
+}
+.content-five-sc .link .jumplink .skysealink {
+  display: inline-block;
+  font-size: 18px;
+  color: #3890e1;
+  padding: 5px 10px;
+  border: 1px solid #3890e1;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.content-five-sc .link .jumplink .skysealink .ismallright {
+  width: 10px;
+  height: 14px;
+  background-position: 0 -55px;
+  vertical-align: middle;
+}
+.content-five-sc .link .clearfix {
+  float: left;
+}
+.content-five-sc .link .clearfix li {
+  float: left;
+  width: 295px;
+  font-size: 14px;
+  height: 82px;
+}
+.content-five-sc .link .clearfix li i {
+  vertical-align: middle;
+}
+.content-five-sc .link .clearfix li em {
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px;
+}
+.content-five-sc .link .clearfix li .iconskyseaweixin {
+  width: 82px;
+  height: 82px;
+  background-position: -100px -70px;
+}
+.content-five-sc .link .clearfix li .idownapp {
+  width: 82px;
+  height: 82px;
+  background-position: -182px -70px;
+}
+.content-five-sc .link .clearfix li .iweibo {
+  width: 68px;
+  height: 56px;
+  background-position: -28px -88px;
+}
+.content-five-sc .link .clearfix li .iservicephone {
+  width: 70px;
+  height: 70px;
+  background-position: -28px -145px;
+}
+.content-five-sc .link .wordlinks {
+  width: 410px;
+  margin: 145px auto 20px;
+  text-align: center;
+  color: #999;
+}
+.content-five-sc .link .wordlinks a {
+  color: #999;
+  margin-right: 10px;
+}
+.footer {
+  text-align: center;
+  padding-top: 20px;
+}
+.footer p {
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+.footer p a {
+  color: #4C4C4C;
+}
+.footer p a:hover {
+  text-decoration: underline;
+}
+.footer p .icon-gns {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background-position: 0 -235px;
+  vertical-align: middle;
+  background-image: url(http://pic.c-ctrip.com/platform/online/home/phone_list20170710.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+.footer .honour_wrap {
+  padding-left: 150px;
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
+.footer .honour_wrap a {
+  margin: 0 5px;
+  width: 88px;
+  height: 34px;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  font: 12px/32px Simsun;
+  color: #666;
+  overflow: hidden;
+  text-indent: -99em;
+  white-space: normal;
+  display: inline-block;
+  background-image: url(http://pic.c-ctrip.com/platform/online/home/phone_list20170710.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+.footer .honour_wrap .honour1 {
+  background-position: -88px -50px;
+  text-indent: 36px;
+}
+.footer .honour_wrap .honour2 {
+  background-position: -88px -85px;
+  text-indent: 36px;
+}
+.footer .honour_wrap .honour3 {
+  background-position: 0 -50px;
+}
+.footer .honour_wrap .honour4 {
+  background-position: -88px -118px;
+  text-indent: 0;
+  padding: 2px 0 2px 37px;
+  width: 90px;
+  height: 34px;
+  line-height: 1.2;
+}
+.footer .honour_wrap .honour5 {
+  width: 116px;
+  background-position: 0 -387px;
+}
+.footer .honour_wrap .honour6 {
+  background-position: 0 -118px;
+}
+.footer .honour_wrap .honour8 {
+  background-position: 0 -193px;
+  width: 90px;
+}
+.fixed {
+  position: fixed;
+  top: 50%;
+  right: 5px;
+}
+.fixed ul {
+  height: 112px;
+}
+.fixed ul li {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+.fixed ul .totop {
+  clear: both;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  z-index: 2;
+  background: url(../images/bus/un_sidebar.png) no-repeat;
+  background-position: 0 0;
+}
+.fixed ul .totop:hover {
+  background-position: -79px 0;
+}
+.fixed ul .jianyi,
+.fixed ul .kefu {
+  background-color: #5BB9EF;
+  line-height: 18px;
+  color: #fff;
+}
+.fixed ul .jianyi:hover,
+.fixed ul .kefu:hover {
+  background-color: #FFA100;
+}

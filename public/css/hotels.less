@@ -1,0 +1,774 @@
+*{
+    box-sizing:border-box;
+    font-family: "微软雅黑";
+    padding: 0;
+    margin: 0;
+}
+.box-center{
+    margin: 0 auto;
+}
+.box-text-m{
+    display: table-cell;
+    vertical-align: middle;
+}
+.clear-b{
+    clear: both;
+}
+.display-n{
+    display: none;
+}
+.float-l{
+    float: left
+}
+.float-r{
+    float: right;
+}
+h4,.h4{
+    font-size: 18px;
+}
+.of{
+    overflow: hidden;
+}
+.position-r{
+    position: relative;
+}
+.position-a{
+    position: absolute;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+////
+.bx{
+    width: 1200px;
+    padding: 10px;
+}
+body{
+    font-size: 14px;
+}
+////////
+main{
+    position: relative;
+    .index-side{
+        display: inline-block;
+        width: 380px;
+        margin-right: 20px;
+        height: 43px;
+        .search-top{
+            .title{
+                // margin-bottom: -5px;
+                font: normal 18px/42px "Microsoft Yahei";
+                border-bottom: 0 none;
+                border-radius: 5px 5px 0 0;
+                background-color: #3983E5;
+                color: #fff;
+                i{
+                    float: left;
+                    width: 18px;
+                    height: 13px;
+                    margin: 13px 10px 0 10px;
+                    overflow: hidden;
+                    background: url(../images/hotels/un_index17.png) no-repeat -48px -108px;
+                }
+            }
+            .search-box{
+                position: relative;
+                height: 347px;
+                margin-bottom: 20px;
+                padding-top: 6px;
+                border: 5px solid #2F79DB;
+                border-top: 0 none;
+                border-radius: 6px;
+                background-color: #FFF;
+                .tabs_choose{
+                    padding: 0px 0 5px;
+                    text-align: center;
+                    background-color: #f5f5f5;
+                    label{
+                        margin: 0 10px;
+                        .label-en{
+                            position: absolute;
+                            top: -15px;
+                            right: -10px;
+                            em{
+                                display: inline-block;
+                                font-size: 9px;
+                                font-family: 'Tahoma', arial;
+                                font-style: normal;
+                                margin: 0;
+                                padding: 0 2px;
+                                vertical-align: top;
+                                background-color: #FF9913;
+                                color: white;
+                            }
+                            i{
+                                position: absolute;
+                                z-index: 1;
+                                top: 15px;
+                                right: 0;
+                                display: inline-block;
+                                width: 0;
+                                height: 0;
+                                border-width: 3px;
+                                border-style: solid;
+                                border-color: #da620a transparent transparent #da620a;
+                            }
+                        }
+                    }
+                }
+                .content{
+                    padding: 5px 0;
+                    ul{
+                        list-style: none;
+                        li{
+                            height: 42px;
+                            padding: 6px 40px 0 0;
+                            text-align: right;
+                            span{
+                                padding-right: 10px;
+                                font-size: 12px;
+                                color: #666;
+                            }
+                            input{
+                                height: 30px;
+                                width: 230px;
+                            }
+                            &.sel{
+                                padding: 10px 40px 0 0;
+                                select{
+                                    width: 230px;
+                                }
+                            }
+                            &.subm{
+                                input{
+                                    box-sizing: content-box;
+                                    margin: 10px 0;
+                                    background-color: #FFB000;
+                                    height: 32px;
+                                    font-size: 18px;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .serv{
+            a{
+                display: block;
+                border: 4px solid #ffd18e;
+                height: 196px;
+                margin-bottom: 20px;
+                border-radius: 3px;
+            }
+        }
+        .edition{
+            background-color: #F2F2F2;
+            padding: 14px;
+            h4{
+                padding: 6px 0 15px;
+            }
+            .content{
+                .img{
+                    padding:0 15px 10px 0;
+                    img{
+                        width: 137px;
+                        height: 93px;
+                        border-radius: 8px;
+                    }
+                }
+                .intr{
+                    width: 192px;
+                    h5{
+                        font-size: 18px;
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        padding: 8px 0 3px;
+                    }
+                    div{
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        font-size: 12px;
+                        color: #b2b2b2;
+                    }
+                }
+                .full-btn{
+                    display: block;
+                    width: 100%;
+                    padding: 7px 0;
+                    border: 1px solid #88b6e3;
+                    color: #0066cc;
+                    background-color: #fff;
+                    text-align: center;
+                    font-size: 18px;
+                    font-family: 'microsoft yahei', simsun, sans-serif;
+                    border-radius: 3px;
+                    &:hover{
+                        background-color: #0066cc;
+                        color: white;
+                        text-decoration: none;
+                    }
+                    i{
+                        display: inline-block;
+                        width: 10px;
+                        height: 18px;
+                        margin-left: 19px;
+                        vertical-align: -3px;
+                        background: url(../images/hotels/un_index17.png) no-repeat -120px -320px;
+                    }
+                }
+            }
+        }
+        .box{
+            margin: 10px 0;
+            border: 5px solid #FFD33A;
+        }
+        h2{
+            height: 34px;
+            margin-bottom: 3px;
+            font: normal 22px/34px "Microsoft Yahei";
+            span{
+                position: absolute;
+                width: 45px;
+                height: 28px;
+                margin: -5px 0 0 4px;
+                background: url(../images/hotels/un_index17.png) no-repeat -70px -108px;
+            }
+        }
+        .box1{
+            border: 1px solid#fff;
+            margin-bottom: 15px;
+        }
+        .box1:hover{
+            border: 1px solid #FFD33A;
+        }
+        .box2{
+            margin-bottom: 15px;
+            border: 1px solid #fff;
+        }
+        .box3{
+            border: 1px solid #fff;
+            margin-bottom: 20px;
+        }
+        .box2:hover{
+            border: 1px solid #FFD33A;
+        }
+        .box3:hover{
+            border: 1px solid blue;
+        }
+    }
+    .index-main{
+        width: 780px;
+        // position: absolute;
+        // top: 20px;
+        // right: 0px;
+        display: inline-block;
+        .slider-top{
+            position: relative;
+            margin-bottom: 10px;
+            height: 240px;
+            p{
+                position: absolute;
+                padding: 0 5px;
+                bottom: 5px;
+                width: 100%;
+                z-index: 5;
+                span{
+                    display: inline-block;
+                    width: 11px;
+                    height: 11px;
+                    border-radius: 50%;
+                    border: 2px solid white;
+                    background-color: #0AB0E8;
+                    box-sizing: content-box;
+                    margin: 5px;
+                    &:hover,&.current{
+                        background-color: #F8CD47;
+                    }
+                }
+            }
+        }
+        .content1{
+            .title{
+                border-bottom: 1px solid #0066cc;
+                span{
+                    height: 34px;
+                    margin-bottom: 3px;
+                    font: normal 22px/34px "Microsoft Yahei";
+                    // border-bottom: 2px solid #5599DD;
+                }
+                a{
+                    display: inline-block;
+                    padding: 2px 9px;
+                    color: #333;
+                    text-decoration: none;
+                    position: relative;
+                    i{
+                        display: block;
+                        position: absolute;
+                        bottom: -2px;
+                        left: 50%;
+                        width: 0;
+                        height: 0;
+                        margin-left: -4px;
+                        border-width: 4px;
+                        border-style: dashed dashed solid dashed;
+                        border-color: transparent transparent #5599DD transparent;
+                        overflow: hidden;
+                    }
+                    b{
+                        width: 0;
+                        height: 0;
+                        margin: 8px 0 0 4px;
+                        border-width: 4px;
+                        border-style: solid dashed dashed dashed;
+                        border-color: #06C transparent transparent transparent;
+                        vertical-align: middle;
+                        position: relative;
+                        top: 10px;
+                    }
+                    &.last{
+                        font-size: 12px;
+                        color: #06C;
+                        float: right;
+                        margin: 10px 0 0 0;
+                    }
+                    &:hover{
+                        background-color: #0066cc;
+                        color: #FFF;
+                        cursor: pointer;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .content{
+                position: relative;
+                dl{
+                    display: inline-block;
+                    overflow: hidden;
+                    dt{
+                        float: left;
+                        width: 70px;
+                        height: 102px;
+                        padding: 6px;
+                        border: 1px solid #ccc;
+                        a{
+                            position: relative;
+                            text-decoration: none;
+                            color: #333;
+                            &:hover,&.current{
+                                color: blue;
+                            }
+                            span{
+                                display: block;
+                                width: 20px;
+                                height: 20px;
+                                margin: 28px auto 6px;
+                                background: url(../images/hotels/un_index17.png) no-repeat -18px -45px;
+                            }
+                            i{
+                                position: absolute;
+                                width: 58px;
+                                border: 2px solid #5599DD;
+                                top: -7px;
+                            }
+                        }
+                    }
+                    dd{
+                        float: left;
+                        width: 91px;
+                        height: 102px;
+                        a{
+                            display: block;
+                            position: relative;
+                            text-decoration: none;
+                            width: 100%;
+                            height: 102px;
+                            padding-top: 78px;
+                            background: url(../images/hotels/un_index17.png) no-repeat 23px 60px;
+                            color: #666;
+                            text-align: center;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            &:hover{
+                                position: relative;
+                                background-position: -77px 60px;
+                                background-color: #F2F2F2;
+                                text-decoration: none;
+                                color: #0066CC;
+                            }
+                        }
+                    }
+                    &.right{
+                        position: absolute;
+                        top: 0;
+                        left: 708px;
+                         a{
+                             span{
+                                 background: url(../images/hotels/un_index17.png) no-repeat -19px -135px;
+                                //  background: url(../images/hotels/un_index17.png) no-repeat -19px -75px;
+                             }
+                         }   
+                    }
+                }
+                .slider-middle{
+                    padding: 20px 0 0 0;
+                    height: 182px;
+                    position: relative;
+                    p{
+                        width: 120px;
+                        position: absolute;
+                        top: 20px;
+                        right: 0;
+                        a{
+                            display: block;
+                            font-size: 12px;
+                            height: 36px;
+                            line-height: 36px;
+                            text-align: center;
+                            color: white;
+                            background-color: rgba(0,0 ,0,.3);
+                            &:hover{
+                                background-color: #2577E3;
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+        .hot{
+            padding: 50px 0 0;
+            .title{
+                position: relative;
+                border-bottom: 1px solid #0066cc;
+                span{
+                    height: 50px;
+                    font-size: 28px;
+                    color: #5599dd;
+                }
+                a{
+                    display: inline-block;
+                    padding: 2px 9px;
+                    color: #333;
+                    text-decoration: none;
+                    position: relative;
+                    i{
+                        display: block;
+                        position: absolute;
+                        bottom: -2px;
+                        left: 50%;
+                        width: 0;
+                        height: 0;
+                        margin-left: -4px;
+                        border-width: 4px;
+                        border-style: dashed dashed solid dashed;
+                        border-color: transparent transparent #5599DD transparent;
+                        overflow: hidden;
+                    }
+                    b{
+                        width: 0;
+                        height: 0;
+                        margin: 8px 0 0 4px;
+                        border-width: 4px;
+                        border-style: solid dashed dashed dashed;
+                        border-color: #06C transparent transparent transparent;
+                        vertical-align: middle;
+                        position: relative;
+                        top: 10px;
+                    }
+                    &.last{
+                        font-size: 12px;
+                        color: #06C;
+                        float: right;
+                        margin: 10px 0 0 0;
+                    }
+                    &:hover{
+                        background-color: #0066cc;
+                        color: #FFF;
+                        cursor: pointer;
+                        text-decoration: none;
+                    }
+                }
+                .icon{
+                    background: url(../images/hotels/un_index17.png) no-repeat 0 -164px; 
+                    position: absolute;
+                    top: -8px;
+                    right: 10px;
+                    width: 189px;
+                    height: 44px;
+                }
+            }
+            ul{
+                padding: 10px 0;
+                list-style: none;
+                li{
+                    overflow: hidden;
+                    padding: 10px 0;
+                    &:hover{
+                        background-color: #B5E2BB;
+                    }
+                    .img{
+                        float: left;
+                        padding: 0 10px 0 0;
+                    }
+                    .intr{
+                        float: left;
+                        h4{
+                            color: #0066CC;
+                            font-size: 16px;
+                            span:nth-child(1){
+                                box-sizing: content-box;
+                                margin-right: 10px;
+                                position: relative;
+                                top: 3px;
+                                display: inline-block;
+                                width: 22px;
+                                height: 22px;
+                                background: url(../images/hotels/un_index17.png) no-repeat -144px -82px; 
+                            }
+                            span:nth-child(2){
+                                box-sizing: content-box;
+                                margin-left: 10px;
+                                position: relative;
+                                top: 12px;
+                                display: inline-block;
+                                width: 32px;
+                                height: 22px;
+                                background: url(../images/hotels/un_index17.png) no-repeat -48px -62px; 
+                            }
+                        }
+                        p{
+                            padding: 10px 0;
+                            line-height: 24px;
+                            font-size: 12px;
+                            a{
+                                padding-right: 10px;
+                                color: #333;
+                            }
+                        }
+                        .weak{
+                            color: #aaa;
+                        }
+                    }
+                    .price{
+                        color: #FF6600;
+                        dfn{
+                            color: #333;
+                            font: 12px Arial;
+                            vertical-align: 8px;
+                        }
+                        b{
+                            font-size: 24px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .integer{
+            .title{
+                span{
+                    font: normal 22px/34px "Microsoft Yahei";
+                }
+                a{
+                    float: right;
+                    position: relative;
+                    top: 12px;
+                    text-decoration: none;
+                }
+            }
+            .content{
+                position: relative;
+                border: 1px solid #ccc;
+                .pre{
+                    position: absolute;
+                    width: 24px;
+                    height: 92px;
+                    background-color: #f4f4f4;
+                    span{
+                        position: absolute;
+                        top: 50%;
+                        border-width: 8px;
+                        border-color: transparent #aaa transparent transparent;
+                        border-style: solid; 
+                    }
+                }
+                .after{
+                    right: 0px;
+                    position: absolute;
+                    width: 24px;
+                    height: 92px;
+                    background-color: #f4f4f4;
+                    span{
+                        border-color: transparent transparent transparent #aaa; 
+                        // border-color: transparent transparent transparent yellow; 
+                        left: 8px;
+                        position: absolute;
+                        top: 50%;
+                        border-width: 8px;
+                        border-style: solid; 
+                    }
+                }
+                .slider-bottom{
+                    white-space: nowrap;
+                    padding: 2px 24px;
+                    height: 92px;
+                    a{
+                        box-sizing: content-box;
+                        white-space: pre-wrap;
+                        display: inline-block;
+                        text-align: center;
+                        text-decoration: none;
+                        color: #333;
+                        width:80px;
+                        height: 86px;
+                        margin: 0 10px;
+                        background-color: #fff;
+                        border: 2px solid #fff;
+                        img{
+                            width: 80px;
+                            height: 50px;
+                        }
+                        &:hover{
+                            border: 2px solid yellow;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pic-list{
+        padding: 20px  0 30px;
+        .first{
+            padding-right: 15px;
+        }
+    }
+    .sort{
+        padding: 15px 15px 10px;
+        border: 2px solid #aaa;
+        color: #333;
+        h5{
+            font-size: 12px;
+        }
+        p{
+            font-size: 12px;
+            line-height: 1.5;
+            color: #999;
+            padding-bottom: 10px;
+            a{
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+        dl{
+            dd{
+                position: relative;
+                line-height: 32px;
+                border-top: 1px dashed #ccc;
+                a{
+                    display: inline-block;
+                    width: 84px;
+                    // height: 34px;
+                    color: #aaa;
+                    text-decoration: none;
+                    &.first{
+                        font-weight: bold;
+                        color: #333;
+                        // float: left;
+                    }
+                }
+                .context{
+                    overflow: hidden;
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    // display: inline-block;
+                    white-space: nowrap;
+                    padding: 0 0 0 88px;
+                    a{
+                        display: inline-block;
+                        width: 265px;
+                    }
+                }
+            }
+        }
+    }
+}
+footer{
+    padding: 50px 0;
+    p{
+        text-align: center;
+         font-size: 10px;
+         line-height: 1.5;
+         padding-bottom: 10px;
+        a{
+            text-decoration: none;
+            color: #666;
+            i{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                margin-right: 3px;
+                vertical-align: middle;
+                background: url(../images/hotels/hotels53.png) no-repeat 0 -235px;
+            }  
+        }
+        span{
+            padding: 0 2px;
+        }
+    }
+    div{
+        text-align: center;
+        height: 32px;
+        a{
+            position: relative;
+            display: inline-block;
+            box-sizing: content-box;
+            padding-left: 35px;
+            text-decoration: none;
+            color: #666;
+            width: 60px;
+            height: 32px;
+            font: 12px/32px Simsun;
+            border: 1px solid #ccc;     
+        }
+        a:nth-child(1){
+            top: -15px;
+            background: url(../images/hotels/hotels53.png) no-repeat -88px -50px;
+        }
+        a:nth-child(2){
+            top: -12px;
+            background: url(../images/hotels/hotels53.png) no-repeat -88px -85px;
+        }
+        a:nth-child(3){
+            background: url(../images/hotels/hotels53.png) no-repeat 0 -50px;
+        }
+        a:nth-child(4){
+            background: url(../images/hotels/hotels53.png) no-repeat -88px -118px;
+            line-height: 1.1;
+            top: -7px;
+        }
+        a:nth-child(5){
+            background: url(../images/hotels/hotels53.png) no-repeat 0 -387px;
+        }
+        a:nth-child(6){
+            background: url(../images/hotels/hotels53.png) no-repeat 0 -118px;
+        }
+        a:nth-child(7){
+            background: url(../images/hotels/hotels53.png) no-repeat 0 -193px;
+        }
+    }
+}
+

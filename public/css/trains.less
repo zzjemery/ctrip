@@ -1,0 +1,156 @@
+.fl{
+    float: left;
+}
+.trains-tuijian{
+    width: 1180px;
+    margin: 0 auto;
+    height: 360px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    .tricket-tab{
+        width: 320px;
+        height: 360px;
+        float: left;
+        .piao-tab{
+            height: 45px;
+            li{
+                float: left;
+                width: 160px;
+                font-size: 14px;
+                color: #fff;
+                background-color: #74a3e7;
+                height: 45px;
+                line-height: 45px; 
+                margin-top: -2px;
+                border-radius: 4px 4px 0 0;
+                vertical-align: middle;
+                text-align: center;
+                &:hover{
+                    // height: 47px;
+                    // line-height: 47px;
+                    margin-top: -2px;
+                    background: #3480e2;
+                }
+            }
+           
+        }
+        .tricket-list{
+            height: 265px;
+            border: 5px solid #3480e2;
+            margin-top: -2px;
+            padding: 20px;
+            position: relative;
+            ul{
+                height: 20px;
+            }
+            li:first-child{
+                border: none;
+            }
+            li{
+                width: 33.33%;
+                float: left;
+                border-left: 1px solid #ebebeb;
+                margin-left: -1px;
+                text-align: center;
+                cursor: pointer;
+                &:hover{
+                    color: #3480e2;
+                }
+
+            }
+            .search-form{
+                position: relative;
+                input{
+                    position: relative;
+                    padding: 5px 8px;
+                    border: solid 1px #e0e0e0;
+                    font-size: 14px;
+                    width: 220px;
+                    position: relative;
+                    height: 20px;
+                    color: #ccc;
+                    margin-top: 20px;
+                }
+                .change{
+                    display: block;
+                    width: 30px;
+                    height: 45px;
+                    cursor: pointer;
+                    position: absolute;
+                    left: 238px;
+                    top: 40px;
+                    background: url("../images/trains/un_index.png") no-repeat;
+                    background-position: -15px -175px;
+                    &:hover{
+                        background-position: -65px -175px;
+                    }
+                }
+                .checkbox{
+                    position: relative;
+                    margin-bottom: 20px;
+                    font-size: 14px;
+                    cursor: default;
+                    margin-top: 15px;
+                    i{
+                        width: 20px;
+                        height: 20px;
+                        float: right;
+                        background: url("../images/trains/un_index.png");
+                        background-position: -160px -215px;
+                    }
+                    .i-pos{
+                        background-position: -190px -215px;
+                    }
+                }
+                .searchbtn{
+                    width: 100%;
+                    height: 35px;
+                    border: 0;
+                    background: #ffab00;
+                    font-size: 16px;
+                    color: #fff;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-weight: bold;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    .slide{
+        width: 840px;
+        height: 360px;
+        float: right;
+        overflow: hidden;
+        position: relative;
+        .img-list{
+            li:first-child{
+                display: block;
+            }
+            li{
+                display: none;
+            }
+        }
+        .dot{
+            height: 15px;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            li{
+                display: inline-block;
+                overflow: hidden;
+                width: 11px;
+                height: 11px;
+                margin-right: 8px;
+                border: 2px solid #fff;
+                border-radius: 11px 11px 11px 11px;
+                cursor: pointer;
+                list-style: none;
+                background-color: #0ab0e8;
+                &:hover{
+                    background-color: #f8cd47;
+                }
+            }
+        }
+    }
+}

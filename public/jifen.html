@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>积分</title>
+    <link href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/cssreset-min.css">
+    <link rel="stylesheet" href="./css/jifen.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/ctrip1.css">
+    <!--[if lt IE 9]>
+<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <div class="ctrip-container">
+        <div class="ctrip-header w">
+            <div class="ctrip-logo">
+                <a href="ctrip.html"></a>
+            </div>
+            <div class="ctrip-search">
+                <input type="text">
+                <button></button>
+            </div>
+            <div class="ctrip-nav-bar">
+                <div class="language">
+                    <a href="" class="list-heder">
+                        <span> <em class="icon"></em> Global Sites
+                        <em class="arrow"></em></span>
+                    </a>
+                    <div class="language-list">
+                        <ul class="language_list">
+                            <li class="first"><a class="language_hk">香港（繁体）</a></li>
+                            <li><a class="language_hk">Hong Kong(English)</a></li>
+                            <li><a class="language_en">English</a></li>
+                            <li><a class="language_jap">日语版</a></li>
+                            <li><a class="language_korea">韩语版</a></li>
+                            <li><a class="language_sg">Singapore</a></li>
+                            <li><a class="language_id">Bahasa Indonesia</a></li>
+                            <li><a class="language_my">Bahasa Malaysia</a></li>
+                            <li><a class="language_th">ภาษาไทย</a></li>
+                            <li><a class="language_fr">Français</a></li>
+                            <li><a class="language_de">Deutsch</a></li>
+                            <li><a class="language_es">Español</a></li>
+                            <li class="last"><a class="language_ru">Русский</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service">
+                    <a href="javascript:;" class="list-heder" style="background-color:white">客服中心</a>
+                </div>
+                <div class="service_phone">
+                    <a href="javascript:;">
+                        <span>国内：<em>400-830-6666</em></span></a>
+                    <ul>
+                        <li>
+                            <span style="color:#999">（或）</span><em>400-820-6666</em>
+                        </li>
+                        <li>
+                            海外：<em>+ 86-21-3406-4888</em>
+                        </li>
+                        <li>
+                            香港：<em>+ 852-3069-9966</em>
+                        </li>
+                    </ul>
+                </div>
+                <div class="concat">
+                    <a href="" class="phone-h"><i class="phone"></i></a>
+                    <div class="box phone_box">
+                        <i></i>
+                        <div>
+                            <span>手机扫码快速下载</span>
+                            <img src="public/images/ctrip/er_ctrip_app.jpg" alt="">
+                            <p>携程旅行手机版</p>
+                        </div>
+                    </div>
+                    <a href="" class="weixin-h"><i class="weixin"></i></a>
+                    <div class="box weinxin_box">
+                        <i></i>
+                        <div>
+                            <span>携程订阅号:helloctrip</span>
+                            <img src="public/images/ctrip/er_ctrip_wechat.jpg" alt="">
+                            <p>扫一扫,领旅行福利</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ctrip-nav">
+        <div class="nav-list">
+            <ul>
+                <li>
+                    <a href="../index.html">首页 <i></i></a>
+                    <div class="second-nav border-none">
+                        <h2 class="line-title">国际旅行直通车<i class="icon-arrow"></i></h2>
+                        <ul class="line-list">
+                            <li><i class="cui-icon-hotel"></i><a href="http://hotels.ctrip.com/international#ctm_ref=tti_hp_sni_hoi_txt_1">海外酒店</a></li>
+                            <li><i class="cui-icon-flight"></i><a href="http://flights.ctrip.com/international#ctm_ref=tti_hp_sni_fli_txt_2">国际机票</a></li>
+                            <li><i class="cui-icon-car"></i><a href="http://car.ctrip.com/hwzijia#ctm_ref=tti_hp_sni_car_txt_3">国际租车</a></li>
+                            <li><i class="cui-icon-train"></i><a href="http://rails.ctrip.com#ctm_ref=tti_hp_sni_tra_txt_4">国际•台湾火车票</a></li>
+                            <li><i class="cui-icon-outboundtravel"></i><a href="http://vacations.ctrip.com/international#ctm_ref=tti_hp_sni_vac_txt_5">出境旅游</a></li>
+                            <li><i class="cui-icon-HHtravel"></i><a href="http://www.hhtravel.com/#ctm_ref=tti_hp_sni_top_txt_9">高端游</a></li>
+                            <li><i class="cui-icon-ticket"></i><a href="http://piao.ctrip.com/oversea#ctm_ref=tti_hp_sni_ply_txt_6">海外门票</a></li>
+                            <li><i class="cui-icon-visa"></i><a href="http://vacations.ctrip.com/visa#ctm_ref=tti_hp_sni_visa_txt_7">签证</a></li>
+                            <li><i class="cui-icon-insurance"></i><a href="http://vacations.ctrip.com/insurance/search/t-2.html#ctm_ref=tti_hp_sni_insurance_txt_10">出境保险</a></li>
+                            <li><i class="cui-icon-wifi"></i><a href="http://huodong.ctrip.com/wifi#ctm_ref=tti_hp_sni_wifi_txt_8">出境WiFi•电话卡</a></li>
+                            <li><i class="cui-icon-foreign"></i><a href="http://forex.ctrip.com/?bid=11&amp;1=1">外币兑换</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="hotels.html">酒店 <i></i><span></span></a>
+                    <div class="second-nav none">
+                        <ul id="ul_nav_hotel" class="cui_sub_nav">
+                            <li><a class="head-index" href="http://hotels.ctrip.com/">国内酒店</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://hotels.ctrip.com/international/">海外酒店</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://hotels.ctrip.com/apartment">海外民宿+短租</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://tuan.ctrip.com">团购</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://hotels.ctrip.com/hotsale">特价酒店</a></li>
+                            <li class="divider "></li>
+                            <li><a rel="nofollow" href="http://hotels.ctrip.com/tujia/">途家公寓</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://taocan.ctrip.com/sh/HotelDefault.aspx?fluxentrance=10405&amp;FromMenu=hotel">酒店+景点</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://inn.ctrip.com">客栈民宿</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://meeting.ctrip.com/?channel=0">团队房•长住房</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://meeting.ctrip.com/?channel=1">会议</a></li>
+
+                        </ul>
+                        <a class="second-last-dingdan last-dingdan" href="http://my.ctrip.com/Home/Order/HotelOrderList.aspx"><i class="cui-icon-hotel"></i>酒店订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="vacations.html">旅游 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_vac" class="cui_sub_nav">
+                            <li><a id="c_ph_vacations_v" class="head-index cui_sub_current" href="http://vacations.ctrip.com/">旅游首页</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_around_v" href="http://weekend.ctrip.com/around/">周末游</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_vacationsd_v" href="http://vacations.ctrip.com/grouptravel/">跟团游</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_taocan_v" href="http://taocan.ctrip.com/">自由行</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_cruise_v" href="http://cruise.ctrip.com/">邮轮</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_taocanj_v" href="http://taocan.ctrip.com/sh/">酒店+景点</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_huodong_v" href="http://huodong.ctrip.com/">当地玩乐</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_zhutiyou_v" href="http://vacations.ctrip.com/themetravel/">主题游<span class="label-en" id="ACT_Label_21" style=""><em>HOT</em><i class="triangle"></i></span></a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_baotuan_v" href="http://vacations.ctrip.com/dingzhi">定制旅行</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_youxue_v" href="http://vacations.ctrip.com/youxue">游学</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_visa_v" href="http://vacations.ctrip.com/visa">签证</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_mice_v" href="http://mice.ctrip.com">企业会奖</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_hh_v" target="_blank" rel="nofollow" href="http://www.hhtravel.com/#ctm_ref=hh_ct_thp_nav">高端游</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_golf_v" href="http://pages.ctrip.com/ctt/marketing/">爱玩户外</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_insurance_v" href="http://vacations.ctrip.com/insurance">保险</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_deals_v" href="http://vacations.ctrip.com/deals">特卖汇</a></li>
+                        </ul><a class="cui_ico_order last-dingdan" rel="nofollow" href="http://my.ctrip.com/Home/Order/PkgOrderList.aspx"><i class="cui-icon-vacations"></i>旅游订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="flights.html">机票 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_flight" class="cui_sub_nav">
+                            <li><a id="c_ph_flights_f" class="cui_sub_current" href="http://flights.ctrip.com">国内机票</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_flightsi_f" href="http://flights.ctrip.com/international/">国际机票</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_fuzzy_f" href="http://flights.ctrip.com/fuzzy/#ctm_ref=ctr_nav_flt_fz_pgs">特价机票</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_taocan_f" href="http://taocan.ctrip.com">机+酒</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_flightstoolbox_f" href="http://flights.ctrip.com/actualtime">航班动态</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_bookseat_f" rel="nofollow" href="http://flights.ctrip.com/domestic/checkinseat/index">值机选座</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_flightorderlist_f" rel="nofollow" href="http://my.ctrip.com/Home/Order/FlightOrderList.aspx">退票改签</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_airportguides_f" rel="nofollow" href="http://flights.ctrip.com/booking/airport-guides.html">机场攻略</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_airbus_f" href="http://airbus.ctrip.com/#ctm_ref=arb_hp_flt_nang">机场巴士</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_gwytd_f" href="http://flights.ctrip.com/Domestic/Civs">公务员通道</a></li>
+                        </ul>
+                        <a class="cui_ico_order last-dingdan" rel="nofollow" href="http://my.ctrip.com/Home/Order/FlightOrderList.aspx"><i class="cui-icon-flight"></i>机票订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="trains.html">火车 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_trains" class="cui_sub_nav">
+                            <li id="ul_c_ph_train_t"><a id="c_ph_train_t" class="cui_sub_current head-index" href="http://trains.ctrip.com">国内火车票</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_traino_t"><a id="c_ph_traino_t" href="http://rails.ctrip.com">国际火车票•通票<span class="label-cn" id="ACT_Label_34" style=""><em>欧日港台</em><i class="triangle"></i></span></a></li>
+                        </ul>
+                        <a class="cui_ico_order last-dingdan" rel="nofollow" href="http://my.ctrip.com/Home/Order/RailwayOrderList.aspx"><i class="cui-icon-train"></i>火车票订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="bus.html">汽车票 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_destination" class="cui_sub_nav">
+                            <li id="ul_c_ph_bus_t"><a id="c_ph_bus_t" class="head-index cui_sub_current" href="http://bus.ctrip.com/">汽车票</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_airbus_t"><a id="c_ph_airbus_t" href="http://airbus.ctrip.com/#ctm_ref=arb_hp_bus_nang">机场巴士</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_ship_t"><a id="c_ph_ship_t" href="http://bus.ctrip.com/ship/">船票</a></li>
+                        </ul>
+                        <a class="cui_ico_order last-dingdan" rel="nofollow" href="http://my.ctrip.com/Home/Order/QicheOrderlist.aspx"><i class="cui-icon-bus"></i>汽车票订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="car.html">用车 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_car" class="cui_sub_nav">
+                            <li id="ul_c_ph_car_c"><a id="c_ph_car_c" class="head-index cui_sub_current" href="http://car.ctrip.com/#ctm_ref=chp_var_txt">用车首页</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_hwzj_c"><a id="c_ph_hwzj_c" href="http://car.ctrip.com/hwzijia#ctm_ref=chp_var_txt">国际租车</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_hwdaijia_c"><a id="c_ph_hwdaijia_c" href="http://car.ctrip.com/hwdaijia#ctm_ref=chp_var_txt">国际接送机</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_zj_c"><a id="c_ph_zj_c" href="http://car.ctrip.com/zijia#ctm_ref=chp_var_txt">国内租车</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_daijia_c"><a id="c_ph_daijia_c" href="http://car.ctrip.com/daijia#ctm_ref=chp_var_txt">国内接送机/火车</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_rizu_c"><a id="c_ph_rizu_c" href="http://car.ctrip.com/idayweb">国内包车</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_hwrizu_c"><a id="c_ph_hwrizu_c" href="http://car.ctrip.com/line/index">国际包车</a></li>
+                        </ul>
+                        <a class="cui_ico_order last-dingdan" rel="nofollow" href="http://my.ctrip.com/Home/Order/CarOrderList.aspx"><i class="cui-icon-car"></i>用车订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="piao.html">门票 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_ticket" class="cui_sub_nav">
+                            <li id="ul_c_ph_piao_p"><a id="c_ph_piao_p" class="head-index cui_sub_current" href="http://piao.ctrip.com/?clear=t#ctm_ref=tkt_home_tab_inland">国内门票</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_piaooversea_p"><a id="c_ph_piaooversea_p" href="http://piao.ctrip.com/oversea#ctm_ref=tkt_home_tab_oversea">海外•港澳台门票</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_huodong_p"><a id="c_ph_huodong_p" href="http://huodong.ctrip.com#ctm_ref=ctr_hp_ttd">当地玩乐</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_wifi_p"><a id="c_ph_wifi_p" href="http://huodong.ctrip.com/wifi#ctm_ref=ctr_hp_wifi">出境WiFi•电话卡</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_around_p"><a id="c_ph_around_p" href="http://you.ctrip.com/around#ctm_ref=gs-990123-290801-0-02-M001|0|0">周末游</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_disney_p"><a id="c_ph_disney_p" href="http://piao.ctrip.com/dest/t1412255.html">迪士尼</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_park_p"><a id="c_ph_park_p" href="http://parking.ctrip.com">机场停车</a></li>
+                        </ul>
+                        <a class="last-dingdan cui_ico_order" rel="nofollow" href="http://my.ctrip.com/Home/Order/LocalUnionOrderList.aspx"><i class="cui-icon-ticket"></i>门票玩乐订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="tuan.html">团购 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_tuan" class="cui_sub_nav">
+                            <li id="ul_c_ph_tuan_tu"><a id="c_ph_tuan_tu" class="head-index cui_sub_current" href="http://tuan.ctrip.com">团购首页</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_tuanhotel_tu"><a id="c_ph_tuanhotel_tu" href="http://tuan.ctrip.com/hotel/">酒店</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_tuanticket_tu"><a id="c_ph_tuanticket_tu" href="http://tuan.ctrip.com/ticket/">门票</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_tuantravel_tu"><a id="c_ph_tuantravel_tu" href="http://tuan.ctrip.com/travel/">旅游</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_tuanlife_tu"><a id="c_ph_tuanlife_tu" href="http://tuan.ctrip.com/life/">美食</a></li>
+                        </ul>
+                        <a class="cui_ico_order last-dingdan" rel="nofollow" href="http://my.ctrip.com/Home/Order/GroupOrderList.aspx"><i class="cui-icon-tuan"></i>团购订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="you.html">攻略 <i></i><span></span></a>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="g.html">全球购 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_g" class="cui_sub_nav">
+                            <li id="ul_c_ph_mdg_g"><a id="c_ph_mdg_g" class="head-index cui_sub_current" href="http://g.ctrip.com/">名店购</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_ts_g"><a id="c_ph_ts_g" href="http://tax.ctrip.com/?bid=2&amp;cid=1&amp;pid=1">退税</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_ylth_g"><a id="c_ph_ylth_g" href="http://g.ctrip.com/gsmarketingactive/unionpay?ctm_ref=M_gw_3home_paypal_cl">银联特惠</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_skjl_g"><a id="c_ph_skjl_g" href="http://card.ctrip.com/#ctm_ref=ctr_bid_0_cid_1_pid_1">万千赏</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_forex_g"><a id="c_ph_forex_g" href="http://forex.ctrip.com/?bid=62&amp;1=1">外币兑换</a></li>
+                        </ul>
+                        <a class="last-dingdan cui_ico_order" rel="nofollow" href="http://forex.ctrip.com/order/list/"><i class="cui-icon-foreign"></i>外币兑换订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="lipin.html">礼品卡 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_lpk" class="cui_sub_nav">
+                            <li id="ul_c_ph_lipin_l"><a id="c_ph_lipin_l" class="head-index cui_sub_current" href="http://lipin.ctrip.com">礼品卡首页</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_xcb_l"><a id="c_ph_xcb_l" href="http://lipin.ctrip.com/xcb">礼品卡福袋</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_ckzm_l"><a id="c_ph_ckzm_l" href="http://jr.ctrip.com/deposit/deposit/index">存款证明</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_dhq_l"><a id="c_ph_dhq_l" href="http://lipin.ctrip.com/voucher">兑换券</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_forexlipin_l"><a id="c_ph_forexlipin_l" href="http://forex.ctrip.com/?bid=12&amp;1=1">外币兑换</a></li>
+                        </ul>
+                        <a class="last-dingdan cui_ico_order" rel="nofollow" href="http://my.ctrip.com/Home/Order/TicketOrderList.aspx"><i class="cui-icon-card"></i>礼品卡订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="ct.html">商旅 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_sl" class="cui_sub_nav">
+                            <li id="ul_c_ph_slsy_s"><a id="c_ph_slsy_s" href="http://ct.ctrip.com/#ctm_ref=xcct">商旅首页</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_chl_s"><a id="c_ph_chl_s" href="http://ct.ctrip.com/crptravel/default/landing#ctm_ref=xcpt">企业差旅平台</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_hj_s"><a id="c_ph_hj_s" href="http://mice.ctrip.com">会议旅游</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li><a href="cruise.html">游轮</a></li>
+                <li class="fengexian"></li>
+                <li><a href="skycruise.html">天海邮轮</a></li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="jifen.html">更多 <i></i><span></span></a>
+                    <div class="second-nav disblock">
+                        <ul id="ul_nav_more" class="cui_sub_nav">
+                            <li id="ul_c_ph_sjhy_m"><a id="c_ph_sjhy_m" href="http://pages.ctrip.com/marketing/2017/07/svip/index.html?pushcode=act_svip_pc33&amp;qrcode=act_svip_pc37">超级会员</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_rewards_m"><a id="c_ph_rewards_m" rel="nofollow" href="http://jifen.ctrip.com/rewards">积分商城</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_cards_m"><a id="c_ph_cards_m" rel="nofollow" href="http://cards.ctrip.com">合作卡</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_ypsc_m"><a id="c_ph_ypsc_m" href="http://pages.ctrip.com/commerce/promote/201705/other/yps/index2.html">优品商城</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_sjhy_cxgj"><a id="c_ph_sjhy_cxgj" href="https://tassist.ctrip.com/index?scl=mChannel">出行管家</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="index-zhuce">
+                <div class="denglu-box">
+                    <a href="">登录</a>
+                    <span></span>
+                    <a href="">注册</a>
+                </div>
+                <div class="wodexiecheng">
+                    <a href="">我的携程</a>
+                    <span></span>
+                    <div class="button-sign-in">
+                        <button>登录</button>
+                        <a href="">全部订单</a>
+                        <a href="">手机号查单</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="allcontent z-w">
+        <div class="content-jf">
+            <div class="content-first-jf">
+                <div class="cf-left-jf">
+                    <div class="cfl-list-jf">
+                        <div class="list-one-jf">
+                            <p>
+                                <a href="javascript:;">缤纷礼券</a>
+                            </p>
+                            <span><a href="javascript:;">旅游票券</a></span><span><a href="javascript:;">食品饮料</a></span>
+                            <span><a href="javascript:;">时尚生活</a></span><span><a href="javascript:;">其他</a></span>
+                        </div>
+                        <div class="list-one-jf">
+                            <p>
+                                <a href="javascript:;">旅行用品</a>
+                            </p>
+                            <span><a href="javascript:;">户外用品</a></span><span><a href="javascript:;">箱包饰品</a></span>
+                        </div>
+                        <div class="list-one-jf">
+                            <p>
+                                <a href="javascript:;">家居用品</a>
+                            </p>
+                            <span><a href="javascript:;">居家日用</a></span>
+                            <span><a href="javascript:;">家纺用品</a></span>
+                            <span><a href="javascript:;">厨房用品</a></span>
+                        </div>
+                        <div class="list-one-jf">
+                            <p>
+                                <a href="javascript:;">数码家电</a>
+                            </p>
+                            <span><a href="javascript:;">数码及配件</a></span>
+                            <span><a href="javascript:;">日用家电</a></span>
+                        </div>
+                        <p>
+                            <a href="javascript:;">社会公益</a>
+                        </p>
+
+                    </div>
+                    <div class="more-jf">
+                        更多
+                    </div>
+                </div>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="./images/jifen/thj710300.jpg" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="./images/jifen/jdj710.jpg" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="./images/jifen/yhou.jpg" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="./images/jifen/pvc.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-second-jf">
+                <h4>特色专区</h4>
+                <div class="sm-fa-wrap">
+                    <a class="sm-fa-giftcard" title="积分 + 现金" href="PrizeList.aspx?PaymentWayChoice=3" target="_blank">
+                        <span class="sm-fa-span sm-fa-giftcard-pic01"></span>
+                        <span class="sm-fa-span sm-fa-giftcard-pic02"></span>
+                        <span class="sm-fa-span sm-fa-giftcard-txt"></span>
+                    </a>
+                    <div class="sm-fa-right">
+                        <div class="sm-fa-right-half">
+                            <a class="sm-fa-special" title="优品惠" href="http://pages.ctrip.com/commerce/promote/201705/other/yps/index2.html" target="_blank">
+                                <span class="sm-fa-span sm-fa-special-pic"></span>
+                                <span class="sm-fa-span sm-fa-special-txt"></span>
+                            </a>
+                            <a class="sm-fa-diamon" title="钻石专享" href="PrizeList.aspx?type2=1" target="_blank">
+                                <span class="sm-fa-span sm-fa-diamon-pic"></span>
+                                <span class="sm-fa-span sm-fa-diamon-txt"></span>
+                            </a>
+                            <a class="sm-fa-onsale" title="携程精品" href="PrizeList.aspx?type2=29" target="_blank">
+                                <span class="sm-fa-span sm-fa-onsale-pic"></span>
+                                <span class="sm-fa-span sm-fa-onsale-txt"></span>
+                            </a>
+                        </div>
+                        <div class="sm-fa-right-other">
+                            <div class="sm-fa-right-other-top">
+                                <a class="sm-fa-birthday" title="生日专享" href="PrizeList.aspx?type2=13" target="_blank">
+                                    <span class="sm-fa-span sm-fa-birthday-pic"></span>
+                                    <span class="sm-fa-span sm-fa-birthday-txt"></span>
+                                </a>
+                                <a class="sm-fa-coupon" title="缤纷礼券" href="PrizeList.aspx?type=16" target="_blank">
+                                    <span class="sm-fa-span sm-fa-coupon-pic"></span>
+                                    <span class="sm-fa-span sm-fa-coupon-txt"></span>
+                                </a>
+                            </div>
+
+                            <a class="sm-fa-experience-small" title="积分初体验" href="PrizeList.aspx?type2=17" target="_blank">
+                                <span class="sm-fa-span sm-fa-experience-pic-small"></span>
+                                <span class="sm-fa-span sm-fa-experience-txt-small"></span>
+                            </a>
+                            <a class="sm-fa-community" title="社会公益" href="PrizeList.aspx?type=11" target="_blank">
+                                <span class="sm-fa-span sm-fa-community-pic"></span>
+                                <span class="sm-fa-span sm-fa-community-txt"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-third-jf">
+                <h4>品牌专区</h4>
+                <div class="brand-jf">
+                    <div class="brandcont-jf">
+                        <a href="javascript:;"><img src="./images/jifen/avb.jpg" alt=""><span>Ctrip</span></a>
+                        <a href="javascript:;"><img src="./images/jifen/hi.jpg" alt=""><span>LEXON</span></a>
+                        <a href="javascript:;"><img src="./images/jifen/h.jpg" alt=""><span>恒源祥</span></a>
+                        <a href="javascript:;"><img src="./images/jifen/a11.jpg" alt=""><span>天海邮轮</span></a>
+                        <a href="javascript:;"><img src="./images/jifen/led.jpg" alt=""><span>LE CREUSET</span></a>
+                    </div>
+                    <span class="branddot1-jf sanjiaoxin"></span>
+                    <span class="branddot2-jf sanjiaoxin"></span>
+                </div>
+            </div>
+            <div class="content-four-jf">
+                <h4>携程推荐</h4>
+                <ul>
+                    <li>
+                        <img src="./images/jifen/jf (17).jpg" alt="WENGER 纪念款双肩背包">
+                        <p>
+                            <a href="javascript:;">WENGER 纪念款双肩背包</a></p>
+                        <p><span>62200</span>分</p>
+                    </li>
+                    <li>
+                        <img src="./images/jifen/jf (14).jpg" alt="Ctrip 特制方巾礼盒">
+                        <p><a href="javascript:;">Ctrip 特制方巾礼盒</a></p>
+                        <p><span>6300</span>分</p>
+                    </li>
+                    <li>
+                        <img src="./images/jifen/jf (7).jpg" alt="联劝公益 一个鸡蛋捐赠">
+                        <p><a href="javascript:;">联劝公益 一个鸡蛋捐赠</a></p>
+                        <p><span>300</span>分</p>
+                    </li>
+                    <li>
+                        <img src="./images/jifen/jf (9).jpg" alt="联劝公益 智慧之舟捐赠">
+                        <p><a href="javascript:;">联劝公益 智慧之舟捐赠</a></p>
+                        <p><span>4300</span>分</p>
+                    </li>
+                    <li>
+                        <img src="./images/jifen/bao.jpg" alt="WENGER 14寸电脑背包">
+                        <p>
+                            <a href="javascript:;">WENGER 14寸电脑背包</a>
+                        </p>
+                        <p><span>66000</span>分</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-right-jf">
+            <div class="login-jf">
+                <h5><a href="javascript:;">登录查看我的积分信息</a></h5>
+                <div class="cr-show-jf">
+                    <div class="crs-jf">
+                        <p>查找奖品</p>
+                        <input type="radio" name="fanwei" selected>积分范围
+                        <input type="radio" name="fanwei">礼品卡范围
+                        <select id="selCreditsRange" style="width:120px;">
+							<option value="all">不限</option>
+							<option value="1,2000">1-2000</option>
+							<option value="2001,5000">2001-5000</option>
+							<option value="5001,10000">5001-10000</option>
+							<option value="10001,50000">10001-50000</option>
+							<option value="50001,200000">50001-200000</option>
+							<option value="200001,10000000">200000以上</option>
+                        </select>
+                        <span class="search-jf">搜索</span>
+                        <div class="can-jf">
+                            <p class="exchange"><a href="javascript:;">我能兑换的奖品</a></p>
+                            <p class="tese">积分四大特色<span>&gt;</span></p>
+                            <a href="javascript:;" class="sm-score sm-score-method-gift"></a>
+                            <a href="javascript:;" class="sm-score sm-score-method-prize"></a>
+                            <a href="javascript:;" class="sm-score sm-score-method-super"></a>
+                            <a href="javascript:;" class="sm-score sm-score-method-welfare"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blank-jf">
+            </div>
+            <div class="huadong-jf">
+                <h4>人气排行榜</h4>
+                <ol>
+                    <li id="hd1">
+                        <a href="javascript:;" class="hdp-1 hdp-block"><span><img src="./images/jifen/hd (7).png" alt="">中国绿化基金会 单棵</span></a>
+                        <div class="hdp_1 hdp-hidden"><span>1.</span>中国绿化基金会 单棵树苗</div>
+                    </li>
+                    <li id="hd2">
+                        <a href="javascript:;" class="hdp-2 hdp-hidden"><span><img src="./images/jifen/hd (8).png" alt="">Ctrip 特制方巾礼盒</span></a>
+                        <div class="hdp_2"><span>2.</span>Ctrip 特制方巾礼盒</div>
+                    </li>
+                    <li id="hd3">
+                        <a href="javascript:;" class="hdp-3 hdp-hidden"><span><img src="./images/jifen/hd (9).png" alt="">Ctrip 特制Diplomat证</span></a>
+                        <div class="hdp_3"><span>3.</span>Ctrip 特制Diplomat证件夹</div>
+                    </li>
+                    <li id="hd4">
+                        <a href="javascript:;" class="hdp-4 hdp-hidden"><span><img src="./images/jifen/hd (10).png" alt="">Ctrip 特制怡情野餐垫</span></a>
+                        <div class="hdp_4"><span>4.</span>Ctrip 特制怡情野餐垫</div>
+                    </li>
+                    <li id="hd5">
+                        <a href="javascript:;" class="hdp-5 hdp-hidden"><span><img src="./images/jifen/hd (1).png" alt="">Ctrip 特制彩色铅笔</span></a>
+                        <div class="hdp_5"><span>5.</span>Ctrip 特制彩色铅笔</div>
+                    </li>
+                    <li id="hd6">
+                        <a href="javascript:;" class="hdp-6 hdp-hidden"><span><img src="./images/jifen/hd (2).png" alt="">Ctrip 特制EasySport</span></a>
+                        <div class="hdp_6"><span>6.</span>Ctrip 特制EasySport防水袋两件套</div>
+                    </li>
+                    <li id="hd7">
+                        <a href="javascript:;" class="hdp-7 hdp-hidden"><span><img src="./images/jifen/hd (3).png" alt="">Ctrip 特制双线移动</span></a>
+                        <div class="hdp_7"><span>7.</span>Ctrip 特制双线移动电源</div>
+                    </li>
+                    <li id="hd8">
+                        <a href="javascript:;" class="hdp-8 hdp-hidden"><span><img src="./images/jifen/hd (4).png" alt="">Ctrip 特制羽毛球拍</span></a>
+                        <div class="hdp_8"><span>8.</span>Ctrip 特制羽毛球拍</div>
+                    </li>
+                    <li id="hd9">
+                        <a href="javascript:;" class="hdp-9 hdp-hidden"><span><img src="./images/jifen/hd (5).png" alt="">Ctrip 特制野餐垫</span></a>
+                        <div class="hdp_9"><span>9.</span>Ctrip 特制野餐垫</div>
+                    </li>
+                    <li id="hd10">
+                        <a href="javascript:;" class="hdp-10 hdp-hidden"><span><img src="./images/jifen/hd (6).png" alt="">Ctrip 特制纱布毛巾礼</span></a>
+                        <div class="hdp_10"><span>10.</span>Ctrip 特制纱布毛巾礼盒</div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="others-jf">
+        <div class="others-content-jf z-w">
+            <div class="otct1-jf">
+                <a href="javascript:;"></a>
+            </div>
+            <div class="otct2-jf">
+                <a href="http://pages.ctrip.com/commerce/promote/201307/other/dhbz/index.html" target="_blank">兑换方法</a>
+                <a href="http://pages.ctrip.com/commerce/promote/201307/other/dhbz/page3.html" target="_blank">发货与配送</a>
+                <a href="http://pages.ctrip.com/commerce/promote/201307/other/dhbz/page1.html" target="_blank">支付方式</a>
+                <a href="http://pages.ctrip.com/commerce/promote/201307/other/dhbz/page4.html" target="_blank">发票说明</a>
+                <a href="http://pages.ctrip.com/commerce/promote/201307/other/dhbz/page2.html" target="_blank">取消和更改</a>
+                <a href="http://help.ctrip.com/QuestionList.aspx?parentId=10&amp;directoryId=98" target="_blank">常见问题</a>
+            </div>
+            <div class="otct3-jf">
+                <a href="javascript:;"></a>
+            </div>
+            <div class="otct4-jf">
+                <a href="javascript:;"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer z-w">
+        <p>
+            <a href="http://pages.ctrip.com/public/sitemap/sitemap.htm" target="_blank" title="网站导航">网站导航</a>&nbsp;|&nbsp;
+            <a href="http://hotels.ctrip.com/jiudian/" target="_blank" title="宾馆索引">宾馆索引</a>&nbsp;|&nbsp;
+            <a href="http://flights.ctrip.com/booking/hot-city-flights-sitemap.html " target="_blank" title="机票索引">机票索引</a>&nbsp;|&nbsp;
+            <a href="http://pages.ctrip.com/public/sitemap/dj.html" title="旅游索引">旅游索引</a>&nbsp;|&nbsp;
+            <a href="http://ct.ctrip.com/crptravel/sitemap.html" title="商旅索引">商旅索引</a>&nbsp;|&nbsp;
+            <a title="攻略索引" href="http://you.ctrip.com/sitemap/">攻略索引</a>&nbsp;|&nbsp;
+            <a rel="nofollow" href="http://pages.ctrip.com/public/ctripab/abctrip.htm" target="_blank" title="关于携程">关于携程</a>&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" href="http://pages.ctrip.com/commerce/promote/201201/other/qygm/index.html" title="企业公民">企业公民</a>&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" title="诚聘英才" href="http://job.ctrip.com/">诚聘英才</a>&nbsp;|&nbsp;
+            <a rel="nofollow" title="智慧旅游" href="http://you.ctrip.com/Intelligence.html">智慧旅游</a>&nbsp; |&nbsp;
+            <a rel="nofollow" target="_blank" href="http://u.ctrip.com/" title="分销联盟">分销联盟</a>&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" href="http://pages.ctrip.com/public/dlhz.htm" title="代理合作">代理合作</a>&nbsp;|&nbsp;
+            <a target="_blank" href="http://ct.ctrip.com" title="企业商旅">企业商旅</a>&nbsp;|&nbsp;
+            <a target="_blank" href="http://ct.ctrip.com/crptravel/default/landing" title="中小企业差旅">中小企业差旅</a>&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" href="http://pages.ctrip.com/public/ctripad/adyw.htm" title="广告业务">广告业务</a>&nbsp;|&nbsp;
+
+            <a rel="nofollow" target="_blank" href="http://pages.ctrip.com/public/contact.htm" title="联系我们">联系我们</a>
+        </p>
+        <p>
+            <a rel="nofollow" href="http://pages.c-ctrip.com/cooperation/web/cooperation.html#ctm_ref=ctr_hp_btm_coop" target="_blank">加盟合作</a>&nbsp;|&nbsp;
+            <a rel="nofollow" href="http://hotels.ctrip.com/jiameng#ctm_ref=ctr_def_btm_hsu_n_1" target="_blank" title="酒店加盟">酒店加盟</a>&nbsp;|&nbsp;
+            <a rel="nofollow" href="http://dst.ctrip.com/">目的地及景区合作</a>&nbsp;|&nbsp;
+            <a rel="nofollow" href="http://pages.ctrip.com/public/serve%20guideline.htm" target="_blank" title="用户协议">用户协议</a>&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" href="http://pages.ctrip.com/public/diploma/company.htm">营业执照</a>&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" href="http://pages.ctrip.com/tour/ingroupline_pages.asp?folder=ingroup0904&amp;file=0177" title="旅游度假资质">旅游度假资质</a>&nbsp;|&nbsp;
+
+            <a rel="nofollow" target="_blank" href="https://insurance.ctrip.com/portal/index.aspx">保险代理</a>&nbsp;|&nbsp;
+            <a target="_blank" href="http://pages.ctrip.com/public/link/ctrip_link.html">友情链接</a>&nbsp;|&nbsp;
+            <a rel="nofollow" href="http://pages.ctrip.com/public/copyright.htm" id="copyright">Copyright©</a>1999-2017,&nbsp;
+            <a href="http://www.ctrip.com/">ctrip.com</a>. All rights reserved.&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" href="http://www.miibeian.gov.cn/">ICP证：沪B2-20050130</a></p>
+        <p class="gns">
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010502000018"><i class="icon-gns"></i>沪公网备31010502000018号</a></p>
+        <div class="honour_wrap">
+            <a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=163178864X" title="网信编码：163178864X" class="honour1" target="_blank" rel="nofollow">信用评级</a>
+            <a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20110428175405415" title="工商亮照标识" class="honour2" target="_blank" rel="nofollow">上海工商</a>
+            <a href="http://search.cxwz.org/cert/l/CX20111018000615000623" title="诚信认证示范企业" class="honour3" target="_blank" rel="nofollow">诚信网站</a>
+            <a href="http://www.zx110.org/" class="honour4" target="_blank" rel="nofollow" title="征信网">网络社会征信网</a>
+            <a href="http://www.shjbzx.cn/" class="honour5" target="_blank" rel="nofollow" title="上海市互联网违法与违规信息举报中心">信息举报中心</a>
+            <a href="https://ss.knet.cn/verifyseal.dll?sn=e12061531010025926306977" class="honour6" target="_blank" rel="nofollow" title="可信网站">可信网站</a>
+            <a href="http://www.12377.cn/" class="honour8" title="违法和不良信息举报中心" target="_blank" rel="nofollow">违法和不良信息举报中心</a></div>
+    </div>
+    <script src="./js/jquery-3.2.1.js"></script>
+    <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function() {
+            var count1 = 0;
+            $('.more-jf').on('click', function() {
+                count1++;
+                if (count1 % 2 == 1) {
+                    $('.more-jf').html('收起');
+                } else {
+                    $('.more-jf').html('更多');
+                }
+
+            });
+            $('#hd1').hover(function() {
+                $('.hdp-1').removeClass('hdp-hidden');
+                $('.hdp-1').addClass('hdp-block');
+                $('.hdp_1').addClass('hdp-hidden');
+            }, function() {
+                $('.hdp_1').removeClass('hdp-hidden');
+                $('.hdp_1').addClass('hdp-block');
+                $('.hdp-1').addClass('hdp-hidden');
+            });
+            $('#hd2').hover(function() {
+                $('.hdp-2').removeClass('hdp-hidden');
+                $('.hdp-2').addClass('hdp-block');
+                $('.hdp_2').addClass('hdp-hidden');
+            }, function() {
+                $('.hdp_2').removeClass('hdp-hidden');
+                $('.hdp_2').addClass('hdp-block');
+                $('.hdp-2').addClass('hdp-hidden');
+            });
+            $('#hd3').hover(function() {
+                $('.hdp-3').removeClass('hdp-hidden');
+                $('.hdp-3').addClass('hdp-block');
+                $('.hdp_3').addClass('hdp-hidden');
+            }, function() {
+                $('.hdp_3').removeClass('hdp-hidden');
+                $('.hdp_3').addClass('hdp-block');
+                $('.hdp-3').addClass('hdp-hidden');
+            });
+            $('#hd4').hover(function() {
+                $('.hdp-4').removeClass('hdp-hidden');
+                $('.hdp-4').addClass('hdp-block');
+                $('.hdp_4').addClass('hdp-hidden');
+            }, function() {
+                $('.hdp_4').removeClass('hdp-hidden');
+                $('.hdp_4').addClass('hdp-block');
+                $('.hdp-4').addClass('hdp-hidden');
+            });
+            $('#hd5').hover(function() {
+                $('.hdp-5').removeClass('hdp-hidden');
+                $('.hdp-5').addClass('hdp-block');
+                $('.hdp_5').addClass('hdp-hidden');
+            }, function() {
+                $('.hdp_5').removeClass('hdp-hidden');
+                $('.hdp_5').addClass('hdp-block');
+                $('.hdp-5').addClass('hdp-hidden');
+            });
+            $('#hd6').hover(function() {
+                $('.hdp-6').removeClass('hdp-hidden');
+                $('.hdp-6').addClass('hdp-block');
+                $('.hdp_6').addClass('hdp-hidden');
+            }, function() {
+                $('.hdp_6').removeClass('hdp-hidden');
+                $('.hdp_6').addClass('hdp-block');
+                $('.hdp-6').addClass('hdp-hidden');
+            });
+            $('#hd7').hover(function() {
+                $('.hdp-7').removeClass('hdp-hidden');
+                $('.hdp-7').addClass('hdp-block');
+                $('.hdp_7').addClass('hdp-hidden');
+            }, function() {
+                $('.hdp_7').removeClass('hdp-hidden');
+                $('.hdp_7').addClass('hdp-block');
+                $('.hdp-7').addClass('hdp-hidden');
+            });
+            $('#hd8').hover(function() {
+                $('.hdp-8').removeClass('hdp-hidden');
+                $('.hdp-8').addClass('hdp-block');
+                $('.hdp_8').addClass('hdp-hidden');
+            }, function() {
+                $('.hdp_8').removeClass('hdp-hidden');
+                $('.hdp_8').addClass('hdp-block');
+                $('.hdp-8').addClass('hdp-hidden');
+            });
+            $('#hd9').hover(function() {
+                $('.hdp-9').removeClass('hdp-hidden');
+                $('.hdp-9').addClass('hdp-block');
+                $('.hdp_9').addClass('hdp-hidden');
+            }, function() {
+                $('.hdp_9').removeClass('hdp-hidden');
+                $('.hdp_9').addClass('hdp-block');
+                $('.hdp-9').addClass('hdp-hidden');
+            });
+            $('#hd10').hover(function() {
+                $('.hdp-10').removeClass('hdp-hidden');
+                $('.hdp-10').addClass('hdp-block');
+                $('.hdp_10').addClass('hdp-hidden');
+            }, function() {
+                $('.hdp_10').removeClass('hdp-hidden');
+                $('.hdp_10').addClass('hdp-block');
+                $('.hdp-10').addClass('hdp-hidden');
+            });
+
+        })
+    </script>
+</body>
+
+</html>

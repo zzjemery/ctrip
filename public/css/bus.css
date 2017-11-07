@@ -1,0 +1,537 @@
+.z-w {
+  width: 1180px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.z-w a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.content-first {
+  padding-top: 50px;
+}
+.content-first .cf-left {
+  width: 380px;
+  height: 370px;
+  border-radius: 20px;
+  background-color: #3983E5;
+}
+.content-first .cf-left ul {
+  float: left;
+  cursor: pointer;
+  background-color: #3983E5;
+  border-radius: 5px;
+}
+.content-first .cf-left ul li {
+  float: left;
+  width: 190px;
+  line-height: 42px;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+.content-first .cf-left ul .activ {
+  background-color: #ECF4FC;
+  color: #3983E5;
+}
+.content-first .cf-left .list-cf {
+  position: relative;
+}
+.content-first .cf-left .list-cf .change_box {
+  position: absolute;
+  left: 320px;
+  width: 18px;
+  height: 53px;
+  margin-top: -35px;
+}
+.content-first .cf-left .list-cf .change_box .icon_change_form {
+  display: block;
+  width: 15px;
+  height: 50px;
+  background: url(../images/bus/icon_index.png) no-repeat 0 -88px;
+}
+.content-first .cf-left .list-cf .change_box .icon_change_form:hover {
+  background: url(../images/bus/icon_index.png) no-repeat -20px -88px;
+}
+.content-first #tabs div {
+  position: absolute;
+  margin: 11px;
+  margin-top: 60px;
+  width: 360px;
+  height: 300px;
+  display: none;
+  border-radius: 5px;
+  background-color: #ECF4FC;
+  text-indent: 2em;
+}
+.content-first #tabs div p:nth-child(1) {
+  padding-top: 45px;
+}
+.content-first #tabs div p {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.content-first #tabs div p span {
+  font-size: 14px;
+  margin-right: 5px;
+  color: #555555;
+}
+.content-first #tabs div p input {
+  width: 200px;
+}
+.content-first #tabs div .hanxian {
+  margin-left: 38px;
+}
+.content-first #tabs div .search {
+  display: block;
+  width: 200px;
+  background-color: #FFB000;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 96px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #8F6F4C;
+  color: #fff;
+  font-size: 18px;
+}
+.content-first #tabs div .dingdan {
+  display: block;
+  margin-top: 50px;
+  padding-left: 200px;
+  text-decoration: underline;
+}
+.content-first .show {
+  display: block;
+}
+.content-first .cf-right {
+  float: right;
+  width: 780px;
+  height: 370px;
+}
+.content-first .cf-right .slide {
+  float: right;
+  width: 780px;
+  height: 370px;
+}
+.content-first .cf-right .slide .carousel-indicators {
+  bottom: 140px;
+  left: 93%;
+}
+.content-first .cf-right .slide .carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #fff;
+  background-color: #02B2E7;
+}
+.content-first .cf-right .slide .carousel-indicators .active {
+  background-color: #FFCC45;
+}
+.content-first .cf-right .no-slide {
+  float: right;
+  margin-top: -105px;
+}
+.content-second {
+  padding-top: 20px;
+  height: 250px;
+}
+.content-second .cs-left {
+  float: left;
+  height: 250px;
+  width: 380px;
+}
+.content-second .cs-left h4 {
+  font-size: 20px;
+}
+.content-second .cs-left ul {
+  float: left;
+  margin-top: 5px;
+}
+.content-second .cs-left ul li {
+  float: left;
+  width: 92px;
+  height: 92px;
+  border-right: 4px solid #fff;
+  background-color: #E0F0FF;
+  text-align: center;
+  margin-right: 4px;
+  color: #0066CC;
+}
+.content-second .cs-left ul li:hover {
+  background-color: #2477E1;
+  color: #fff;
+}
+.content-second .cs-left ul li:nth-child(4) {
+  border-top-right-radius: 10px;
+  margin-right: 0;
+}
+.content-second .cs-left ul li:nth-child(4) i {
+  width: 42px;
+  height: 42px;
+  display: block;
+  margin: 15px auto 5px;
+  background: url(../images/bus/icon_tool.gif) -135px 0 no-repeat;
+  border-top-left-radius: 5px;
+}
+.content-second .cs-left ul li:nth-child(4):hover i {
+  background-position: -135px -45px;
+}
+.content-second .cs-left ul li:nth-child(1) {
+  border-top-left-radius: 10px;
+}
+.content-second .cs-left ul li:nth-child(1) i {
+  width: 42px;
+  height: 42px;
+  display: block;
+  margin: 15px auto 5px;
+  background: url(../images/bus/icon_tool.gif) 0 0 no-repeat;
+  border-top-left-radius: 5px;
+}
+.content-second .cs-left ul li:nth-child(1):hover i {
+  background-position: 0 -45px;
+}
+.content-second .cs-left ul li:nth-child(2) i {
+  width: 42px;
+  height: 42px;
+  display: block;
+  margin: 15px auto 5px;
+  background: url(../images/bus/icon_tool.gif) -45px 0 no-repeat;
+}
+.content-second .cs-left ul li:nth-child(2):hover i {
+  background-position: -45px -45px;
+}
+.content-second .cs-left ul li:nth-child(3) i {
+  width: 42px;
+  height: 42px;
+  display: block;
+  margin: 15px auto 5px;
+  background: url(../images/bus/icon_tool.gif) -90px 0 no-repeat;
+}
+.content-second .cs-left ul li:nth-child(3):hover i {
+  background-position: -90px -45px;
+}
+.content-second .cs-left #cars {
+  background-color: #E0F0FF;
+  height: 100px;
+  margin-top: 108px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.content-second .cs-left #cars p {
+  width: 300px;
+  height: 50px;
+}
+.content-second .cs-left #cars p input {
+  margin-left: 50px;
+}
+.content-second .cs-left #cars .car-text input {
+  width: 130px;
+  padding-left: 4px;
+}
+.content-second .cs-left #cars .car-text i {
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+  background: url(../images/bus/icon_index.png) no-repeat;
+  background-position: -4px -50px;
+}
+.content-second .cs-left #cars .car-text i:hover {
+  background-position: -4px -70px;
+}
+.content-second .cs-left #cars .car-text input:first-child {
+  margin-left: 12px;
+}
+.content-second .cs-left #cars .car-text button {
+  width: 50px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  background-color: #0066CC;
+  line-height: 24px;
+  border-radius: 7px;
+  color: #fff;
+}
+.content-second .cs-right {
+  float: right;
+  width: 780px;
+  height: 300px;
+}
+.content-second .cs-right .r-title {
+  border-bottom: 2px solid #2477E1;
+  font-size: 22px;
+}
+.content-second .cs-right ul {
+  float: left;
+}
+.content-second .cs-right ul li {
+  float: left;
+  width: 251px;
+  margin: 10px 4px;
+  text-align: center;
+  border: 1px solid #EFEFEF;
+  cursor: pointer;
+  color: #666666;
+  font-size: 12px;
+}
+.content-second .cs-right ul li:hover {
+  border: 1px solid #555555;
+}
+.content-third {
+  height: 180px;
+}
+.content-third .ct-left {
+  width: 380px;
+  float: left;
+}
+.content-third .ct-left h3 {
+  font-size: 20px;
+}
+.content-third .ct-left ul {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.content-third .ct-left ul li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*文字溢出的部分隐藏并用省略号代替*/
+  line-height: 25px;
+  white-space: nowrap;
+  /*文本不自动换行*/
+}
+.content-third .ct-left ul a {
+  color: #999;
+  width: 260px;
+}
+.content-third .ct-left ul a:hover {
+  text-decoration: underline;
+}
+.content-third .ct-left ul .hot {
+  color: #FF6600;
+}
+.content-third .ct-left ul .hot i {
+  width: 25px;
+  height: 14px;
+  background: url(http://pic.c-ctrip.com/bus/icon_index.png) no-repeat;
+  background-position: 0 -140px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: -2px 0 0 5px;
+}
+.content-third .ct-right {
+  width: 780px;
+  height: 180px;
+}
+.content-third .ct-right h3 {
+  font-size: 20px;
+  border-bottom: 2px solid #0066CC;
+  line-height: 30px;
+}
+.content-third .ct-right ul {
+  float: left;
+}
+.content-third .ct-right ul li {
+  float: left;
+  width: 105px;
+  height: 110px;
+  font-size: 12px;
+  text-align: center;
+  margin: 20px 12px;
+}
+.content-third .ct-right ul li span {
+  display: inline-block;
+  margin-top: 10px;
+}
+.addr {
+  width: 100%;
+  background-color: #EEEEEE;
+}
+.addr .base_bd {
+  padding-top: 20px;
+  height: 185px;
+}
+.addr .base_bd ul {
+  float: left;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.addr .base_bd ul li {
+  float: left;
+  width: 50%;
+  height: 125px;
+  border-left: 3px solid #fff;
+  margin-left: -3px;
+  margin-top: 30px;
+}
+.addr .base_bd ul li i {
+  width: 320px;
+  height: 125px;
+  display: inline-block;
+  background: url(http://pic.c-ctrip.com/bus/index_QRcode.gif) 0 0 no-repeat;
+}
+.addr .base_bd ul li:nth-child(2) i {
+  width: 320px;
+  height: 125px;
+  display: inline-block;
+  background: url(http://pic.c-ctrip.com/bus/index_QRcode.gif) 0 -125px no-repeat;
+}
+.carstop {
+  margin-top: 20px;
+  border: 1px solid #DEDEDE;
+}
+.carstop .cs-text {
+  padding: 10px;
+  color: #999999;
+}
+.carstop .cs-text h4 {
+  float: left;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.carstop .cs-text ul {
+  float: right;
+  margin: -7px 0 0 118px;
+}
+.carstop .cs-text ul li {
+  float: left;
+  width: 260px;
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 20px;
+}
+.carstop .cs-text ul li a {
+  color: #999;
+  margin-right: 50px;
+}
+.carstop .cs-text ul li a:hover {
+  text-decoration: underline;
+}
+.carstop .cs-text ul li span {
+  float: right;
+  padding-right: 40px;
+}
+.z-footer {
+  text-align: center;
+  padding-top: 20px;
+}
+.z-footer p {
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+.z-footer p a {
+  color: #4C4C4C;
+}
+.z-footer p a:hover {
+  text-decoration: underline;
+}
+.z-footer p .icon-gns {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background-position: 0 -235px;
+  vertical-align: middle;
+  background-image: url(http://pic.c-ctrip.com/platform/online/home/phone_list20170710.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+.z-footer .honour_wrap {
+  padding-left: 150px;
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
+.z-footer .honour_wrap a {
+  margin: 0 5px;
+  width: 88px;
+  height: 34px;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  font: 12px/32px Simsun;
+  color: #666;
+  overflow: hidden;
+  text-indent: -99em;
+  white-space: normal;
+  display: inline-block;
+  background-image: url(http://pic.c-ctrip.com/platform/online/home/phone_list20170710.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+.z-footer .honour_wrap .honour1 {
+  background-position: -88px -50px;
+  text-indent: 36px;
+}
+.z-footer .honour_wrap .honour2 {
+  background-position: -88px -85px;
+  text-indent: 36px;
+}
+.z-footer .honour_wrap .honour3 {
+  background-position: 0 -50px;
+}
+.z-footer .honour_wrap .honour4 {
+  background-position: -88px -118px;
+  text-indent: 0;
+  padding: 2px 0 2px 37px;
+  width: 90px;
+  height: 34px;
+  line-height: 1.2;
+}
+.z-footer .honour_wrap .honour5 {
+  width: 116px;
+  background-position: 0 -387px;
+}
+.z-footer .honour_wrap .honour6 {
+  background-position: 0 -118px;
+}
+.z-footer .honour_wrap .honour8 {
+  background-position: 0 -193px;
+  width: 90px;
+}
+.fixed {
+  position: fixed;
+  top: 50%;
+  right: 5px;
+}
+.fixed ul {
+  height: 112px;
+}
+.fixed ul li {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+.fixed ul .totop {
+  clear: both;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  z-index: 2;
+  background: url(../images/bus/un_sidebar.png) no-repeat;
+  background-position: 0 0;
+}
+.fixed ul .totop:hover {
+  background-position: -79px 0;
+}
+.fixed ul .jianyi,
+.fixed ul .kefu {
+  background-color: #5BB9EF;
+  line-height: 18px;
+  color: #fff;
+}
+.fixed ul .jianyi:hover,
+.fixed ul .kefu:hover {
+  background-color: #FFA100;
+}

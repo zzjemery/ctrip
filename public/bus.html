@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>汽车票</title>
+    <link href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/cssreset-min.css">
+    <link rel="stylesheet" href="./css/bus.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/ctrip1.css">
+    <!--[if lt IE 9]>
+        <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="ctrip-container">
+        <div class="ctrip-header w">
+            <div class="ctrip-logo">
+                <a href="ctrip.html"></a>
+            </div>
+            <div class="ctrip-search">
+                <input type="text">
+                <button></button>
+            </div>
+            <div class="ctrip-nav-bar">
+                <div class="language">
+                    <a href="" class="list-heder">
+                        <span> <em class="icon"></em> Global Sites
+                        <em class="arrow"></em></span>
+                    </a>
+                    <div class="language-list">
+                        <ul class="language_list">
+                            <li class="first"><a class="language_hk">香港（繁体）</a></li>
+                            <li><a class="language_hk">Hong Kong(English)</a></li>
+                            <li><a class="language_en">English</a></li>
+                            <li><a class="language_jap">日语版</a></li>
+                            <li><a class="language_korea">韩语版</a></li>
+                            <li><a class="language_sg">Singapore</a></li>
+                            <li><a class="language_id">Bahasa Indonesia</a></li>
+                            <li><a class="language_my">Bahasa Malaysia</a></li>
+                            <li><a class="language_th">ภาษาไทย</a></li>
+                            <li><a class="language_fr">Français</a></li>
+                            <li><a class="language_de">Deutsch</a></li>
+                            <li><a class="language_es">Español</a></li>
+                            <li class="last"><a class="language_ru">Русский</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service">
+                    <a href="javascript:;" class="list-heder" style="background-color:white">客服中心</a>
+                </div>
+                <div class="service_phone">
+                    <a href="javascript:;">
+                        <span>国内：<em>400-830-6666</em></span></a>
+                    <ul>
+                        <li>
+                            <span style="color:#999">（或）</span><em>400-820-6666</em>
+                        </li>
+                        <li>
+                            海外：<em>+ 86-21-3406-4888</em>
+                        </li>
+                        <li>
+                            香港：<em>+ 852-3069-9966</em>
+                        </li>
+                    </ul>
+                </div>
+                <div class="concat">
+                    <a href="" class="phone-h"><i class="phone"></i></a>
+                    <div class="box phone_box">
+                        <i></i>
+                        <div>
+                            <span>手机扫码快速下载</span>
+                            <img src="./images/ctrip1/er_ctrip_app.jpg" alt="">
+                            <p>携程旅行手机版</p>
+                        </div>
+                    </div>
+                    <a href="" class="weixin-h"><i class="weixin"></i></a>
+                    <div class="box weinxin_box">
+                        <i></i>
+                        <div>
+                            <span>携程订阅号:helloctrip</span>
+                            <img src="./images/ctrip1/er_ctrip_wechat.jpg" alt="">
+                            <p>扫一扫,领旅行福利</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ctrip-nav">
+        <div class="nav-list">
+            <ul>
+                <li>
+                    <a href="../index.html">首页 <i></i></a>
+                    <div class="second-nav border-none">
+                        <h2 class="line-title">国际旅行直通车<i class="icon-arrow"></i></h2>
+                        <ul class="line-list">
+                            <li><i class="cui-icon-hotel"></i><a href="http://hotels.ctrip.com/international#ctm_ref=tti_hp_sni_hoi_txt_1">海外酒店</a></li>
+                            <li><i class="cui-icon-flight"></i><a href="http://flights.ctrip.com/international#ctm_ref=tti_hp_sni_fli_txt_2">国际机票</a></li>
+                            <li><i class="cui-icon-car"></i><a href="http://car.ctrip.com/hwzijia#ctm_ref=tti_hp_sni_car_txt_3">国际租车</a></li>
+                            <li><i class="cui-icon-train"></i><a href="http://rails.ctrip.com#ctm_ref=tti_hp_sni_tra_txt_4">国际•台湾火车票</a></li>
+                            <li><i class="cui-icon-outboundtravel"></i><a href="http://vacations.ctrip.com/international#ctm_ref=tti_hp_sni_vac_txt_5">出境旅游</a></li>
+                            <li><i class="cui-icon-HHtravel"></i><a href="http://www.hhtravel.com/#ctm_ref=tti_hp_sni_top_txt_9">高端游</a></li>
+                            <li><i class="cui-icon-ticket"></i><a href="http://piao.ctrip.com/oversea#ctm_ref=tti_hp_sni_ply_txt_6">海外门票</a></li>
+                            <li><i class="cui-icon-visa"></i><a href="http://vacations.ctrip.com/visa#ctm_ref=tti_hp_sni_visa_txt_7">签证</a></li>
+                            <li><i class="cui-icon-insurance"></i><a href="http://vacations.ctrip.com/insurance/search/t-2.html#ctm_ref=tti_hp_sni_insurance_txt_10">出境保险</a></li>
+                            <li><i class="cui-icon-wifi"></i><a href="http://huodong.ctrip.com/wifi#ctm_ref=tti_hp_sni_wifi_txt_8">出境WiFi•电话卡</a></li>
+                            <li><i class="cui-icon-foreign"></i><a href="http://forex.ctrip.com/?bid=11&amp;1=1">外币兑换</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="hotels.html">酒店 <i></i><span></span></a>
+                    <div class="second-nav none">
+                        <ul id="ul_nav_hotel" class="cui_sub_nav">
+                            <li><a class="head-index" href="http://hotels.ctrip.com/">国内酒店</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://hotels.ctrip.com/international/">海外酒店</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://hotels.ctrip.com/apartment">海外民宿+短租</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://tuan.ctrip.com">团购</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://hotels.ctrip.com/hotsale">特价酒店</a></li>
+                            <li class="divider "></li>
+                            <li><a rel="nofollow" href="http://hotels.ctrip.com/tujia/">途家公寓</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://taocan.ctrip.com/sh/HotelDefault.aspx?fluxentrance=10405&amp;FromMenu=hotel">酒店+景点</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://inn.ctrip.com">客栈民宿</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://meeting.ctrip.com/?channel=0">团队房•长住房</a></li>
+                            <li class="divider "></li>
+                            <li><a href="http://meeting.ctrip.com/?channel=1">会议</a></li>
+
+                        </ul>
+                        <a class="second-last-dingdan last-dingdan" href="http://my.ctrip.com/Home/Order/HotelOrderList.aspx"><i class="cui-icon-hotel"></i>酒店订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="vacations.html">旅游 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_vac" class="cui_sub_nav">
+                            <li><a id="c_ph_vacations_v" class="head-index cui_sub_current" href="http://vacations.ctrip.com/">旅游首页</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_around_v" href="http://weekend.ctrip.com/around/">周末游</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_vacationsd_v" href="http://vacations.ctrip.com/grouptravel/">跟团游</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_taocan_v" href="http://taocan.ctrip.com/">自由行</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_cruise_v" href="http://cruise.ctrip.com/">邮轮</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_taocanj_v" href="http://taocan.ctrip.com/sh/">酒店+景点</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_huodong_v" href="http://huodong.ctrip.com/">当地玩乐</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_zhutiyou_v" href="http://vacations.ctrip.com/themetravel/">主题游<span class="label-en" id="ACT_Label_21" style=""><em>HOT</em><i class="triangle"></i></span></a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_baotuan_v" href="http://vacations.ctrip.com/dingzhi">定制旅行</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_youxue_v" href="http://vacations.ctrip.com/youxue">游学</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_visa_v" href="http://vacations.ctrip.com/visa">签证</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_mice_v" href="http://mice.ctrip.com">企业会奖</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_hh_v" target="_blank" rel="nofollow" href="http://www.hhtravel.com/#ctm_ref=hh_ct_thp_nav">高端游</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_golf_v" href="http://pages.ctrip.com/ctt/marketing/">爱玩户外</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_insurance_v" href="http://vacations.ctrip.com/insurance">保险</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_deals_v" href="http://vacations.ctrip.com/deals">特卖汇</a></li>
+                        </ul><a class="cui_ico_order last-dingdan" rel="nofollow" href="http://my.ctrip.com/Home/Order/PkgOrderList.aspx"><i class="cui-icon-vacations"></i>旅游订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="flights.html">机票 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_flight" class="cui_sub_nav">
+                            <li><a id="c_ph_flights_f" class="cui_sub_current" href="http://flights.ctrip.com">国内机票</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_flightsi_f" href="http://flights.ctrip.com/international/">国际机票</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_fuzzy_f" href="http://flights.ctrip.com/fuzzy/#ctm_ref=ctr_nav_flt_fz_pgs">特价机票</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_taocan_f" href="http://taocan.ctrip.com">机+酒</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_flightstoolbox_f" href="http://flights.ctrip.com/actualtime">航班动态</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_bookseat_f" rel="nofollow" href="http://flights.ctrip.com/domestic/checkinseat/index">值机选座</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_flightorderlist_f" rel="nofollow" href="http://my.ctrip.com/Home/Order/FlightOrderList.aspx">退票改签</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_airportguides_f" rel="nofollow" href="http://flights.ctrip.com/booking/airport-guides.html">机场攻略</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_airbus_f" href="http://airbus.ctrip.com/#ctm_ref=arb_hp_flt_nang">机场巴士</a></li>
+                            <li class="divider "></li>
+                            <li><a id="c_ph_gwytd_f" href="http://flights.ctrip.com/Domestic/Civs">公务员通道</a></li>
+                        </ul>
+                        <a class="cui_ico_order last-dingdan" rel="nofollow" href="http://my.ctrip.com/Home/Order/FlightOrderList.aspx"><i class="cui-icon-flight"></i>机票订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="trains.html">火车 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_trains" class="cui_sub_nav">
+                            <li id="ul_c_ph_train_t"><a id="c_ph_train_t" class="cui_sub_current head-index" href="http://trains.ctrip.com">国内火车票</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_traino_t"><a id="c_ph_traino_t" href="http://rails.ctrip.com">国际火车票•通票<span class="label-cn" id="ACT_Label_34" style=""><em>欧日港台</em><i class="triangle"></i></span></a></li>
+                        </ul>
+                        <a class="cui_ico_order last-dingdan" rel="nofollow" href="http://my.ctrip.com/Home/Order/RailwayOrderList.aspx"><i class="cui-icon-train"></i>火车票订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="bus.html">汽车票 <i></i><span></span></a>
+                    <div class="second-nav disblock">
+                        <ul id="ul_nav_destination" class="cui_sub_nav">
+                            <li id="ul_c_ph_bus_t"><a id="c_ph_bus_t" class="head-index cui_sub_current" href="http://bus.ctrip.com/">汽车票</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_airbus_t"><a id="c_ph_airbus_t" href="http://airbus.ctrip.com/#ctm_ref=arb_hp_bus_nang">机场巴士</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_ship_t"><a id="c_ph_ship_t" href="http://bus.ctrip.com/ship/">船票</a></li>
+                        </ul>
+                        <a class="cui_ico_order last-dingdan" rel="nofollow" href="http://my.ctrip.com/Home/Order/QicheOrderlist.aspx"><i class="cui-icon-bus"></i>汽车票订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="car.html">用车 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_car" class="cui_sub_nav">
+                            <li id="ul_c_ph_car_c"><a id="c_ph_car_c" class="head-index cui_sub_current" href="http://car.ctrip.com/#ctm_ref=chp_var_txt">用车首页</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_hwzj_c"><a id="c_ph_hwzj_c" href="http://car.ctrip.com/hwzijia#ctm_ref=chp_var_txt">国际租车</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_hwdaijia_c"><a id="c_ph_hwdaijia_c" href="http://car.ctrip.com/hwdaijia#ctm_ref=chp_var_txt">国际接送机</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_zj_c"><a id="c_ph_zj_c" href="http://car.ctrip.com/zijia#ctm_ref=chp_var_txt">国内租车</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_daijia_c"><a id="c_ph_daijia_c" href="http://car.ctrip.com/daijia#ctm_ref=chp_var_txt">国内接送机/火车</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_rizu_c"><a id="c_ph_rizu_c" href="http://car.ctrip.com/idayweb">国内包车</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_hwrizu_c"><a id="c_ph_hwrizu_c" href="http://car.ctrip.com/line/index">国际包车</a></li>
+                        </ul>
+                        <a class="cui_ico_order last-dingdan" rel="nofollow" href="http://my.ctrip.com/Home/Order/CarOrderList.aspx"><i class="cui-icon-car"></i>用车订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="piao.html">门票 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_ticket" class="cui_sub_nav">
+                            <li id="ul_c_ph_piao_p"><a id="c_ph_piao_p" class="head-index cui_sub_current" href="http://piao.ctrip.com/?clear=t#ctm_ref=tkt_home_tab_inland">国内门票</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_piaooversea_p"><a id="c_ph_piaooversea_p" href="http://piao.ctrip.com/oversea#ctm_ref=tkt_home_tab_oversea">海外•港澳台门票</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_huodong_p"><a id="c_ph_huodong_p" href="http://huodong.ctrip.com#ctm_ref=ctr_hp_ttd">当地玩乐</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_wifi_p"><a id="c_ph_wifi_p" href="http://huodong.ctrip.com/wifi#ctm_ref=ctr_hp_wifi">出境WiFi•电话卡</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_around_p"><a id="c_ph_around_p" href="http://you.ctrip.com/around#ctm_ref=gs-990123-290801-0-02-M001|0|0">周末游</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_disney_p"><a id="c_ph_disney_p" href="http://piao.ctrip.com/dest/t1412255.html">迪士尼</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_park_p"><a id="c_ph_park_p" href="http://parking.ctrip.com">机场停车</a></li>
+                        </ul>
+                        <a class="last-dingdan cui_ico_order" rel="nofollow" href="http://my.ctrip.com/Home/Order/LocalUnionOrderList.aspx"><i class="cui-icon-ticket"></i>门票玩乐订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="tuan.html">团购 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_tuan" class="cui_sub_nav">
+                            <li id="ul_c_ph_tuan_tu"><a id="c_ph_tuan_tu" class="head-index cui_sub_current" href="http://tuan.ctrip.com">团购首页</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_tuanhotel_tu"><a id="c_ph_tuanhotel_tu" href="http://tuan.ctrip.com/hotel/">酒店</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_tuanticket_tu"><a id="c_ph_tuanticket_tu" href="http://tuan.ctrip.com/ticket/">门票</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_tuantravel_tu"><a id="c_ph_tuantravel_tu" href="http://tuan.ctrip.com/travel/">旅游</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_tuanlife_tu"><a id="c_ph_tuanlife_tu" href="http://tuan.ctrip.com/life/">美食</a></li>
+                        </ul>
+                        <a class="cui_ico_order last-dingdan" rel="nofollow" href="http://my.ctrip.com/Home/Order/GroupOrderList.aspx"><i class="cui-icon-tuan"></i>团购订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="you.html">攻略 <i></i><span></span></a>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="g.html">全球购 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_g" class="cui_sub_nav">
+                            <li id="ul_c_ph_mdg_g"><a id="c_ph_mdg_g" class="head-index cui_sub_current" href="http://g.ctrip.com/">名店购</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_ts_g"><a id="c_ph_ts_g" href="http://tax.ctrip.com/?bid=2&amp;cid=1&amp;pid=1">退税</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_ylth_g"><a id="c_ph_ylth_g" href="http://g.ctrip.com/gsmarketingactive/unionpay?ctm_ref=M_gw_3home_paypal_cl">银联特惠</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_skjl_g"><a id="c_ph_skjl_g" href="http://card.ctrip.com/#ctm_ref=ctr_bid_0_cid_1_pid_1">万千赏</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_forex_g"><a id="c_ph_forex_g" href="http://forex.ctrip.com/?bid=62&amp;1=1">外币兑换</a></li>
+                        </ul>
+                        <a class="last-dingdan cui_ico_order" rel="nofollow" href="http://forex.ctrip.com/order/list/"><i class="cui-icon-foreign"></i>外币兑换订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="lipin.html">礼品卡 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_lpk" class="cui_sub_nav">
+                            <li id="ul_c_ph_lipin_l"><a id="c_ph_lipin_l" class="head-index cui_sub_current" href="http://lipin.ctrip.com">礼品卡首页</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_xcb_l"><a id="c_ph_xcb_l" href="http://lipin.ctrip.com/xcb">礼品卡福袋</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_ckzm_l"><a id="c_ph_ckzm_l" href="http://jr.ctrip.com/deposit/deposit/index">存款证明</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_dhq_l"><a id="c_ph_dhq_l" href="http://lipin.ctrip.com/voucher">兑换券</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_forexlipin_l"><a id="c_ph_forexlipin_l" href="http://forex.ctrip.com/?bid=12&amp;1=1">外币兑换</a></li>
+                        </ul>
+                        <a class="last-dingdan cui_ico_order" rel="nofollow" href="http://my.ctrip.com/Home/Order/TicketOrderList.aspx"><i class="cui-icon-card"></i>礼品卡订单 &gt;</a>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="ct.html">商旅 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_sl" class="cui_sub_nav">
+                            <li id="ul_c_ph_slsy_s"><a id="c_ph_slsy_s" href="http://ct.ctrip.com/#ctm_ref=xcct">商旅首页</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_chl_s"><a id="c_ph_chl_s" href="http://ct.ctrip.com/crptravel/default/landing#ctm_ref=xcpt">企业差旅平台</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_hj_s"><a id="c_ph_hj_s" href="http://mice.ctrip.com">会议旅游</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="fengexian"></li>
+                <li><a href="cruise.html">游轮</a></li>
+                <li class="fengexian"></li>
+                <li><a href="skycruise.html">天海邮轮</a></li>
+                <li class="fengexian"></li>
+                <li>
+                    <a href="jifen.html">更多 <i></i><span></span></a>
+                    <div class="second-nav">
+                        <ul id="ul_nav_more" class="cui_sub_nav">
+                            <li id="ul_c_ph_sjhy_m"><a id="c_ph_sjhy_m" href="http://pages.ctrip.com/marketing/2017/07/svip/index.html?pushcode=act_svip_pc33&amp;qrcode=act_svip_pc37">超级会员</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_rewards_m"><a id="c_ph_rewards_m" rel="nofollow" href="http://jifen.ctrip.com/rewards">积分商城</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_cards_m"><a id="c_ph_cards_m" rel="nofollow" href="http://cards.ctrip.com">合作卡</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_ypsc_m"><a id="c_ph_ypsc_m" href="http://pages.ctrip.com/commerce/promote/201705/other/yps/index2.html">优品商城</a></li>
+                            <li class="divider "></li>
+                            <li id="ul_c_ph_sjhy_cxgj"><a id="c_ph_sjhy_cxgj" href="https://tassist.ctrip.com/index?scl=mChannel">出行管家</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="index-zhuce">
+                <div class="denglu-box">
+                    <a href="">登录</a>
+                    <span></span>
+                    <a href="">注册</a>
+                </div>
+                <div class="wodexiecheng">
+                    <a href="">我的携程</a>
+                    <span></span>
+                    <div class="button-sign-in">
+                        <button>登录</button>
+                        <a href="">全部订单</a>
+                        <a href="">手机号查单</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-first z-w">
+        <div id="tabs" class="cf-left fl ">
+            <ul>
+                <li class="activ">汽车票查询</li>
+                <li>船票查询</li>
+            </ul>
+            <div class="list-cf">
+                <p><span>出发城市</span><input type="text" placeholder="中文/拼音/首字母"></p>
+                <h6 class="change_box">
+                    <a href="javascript:;" class="icon_change_form" id="changecity"></a>
+                </h6>
+                <p><span>到达城市</span><input type="text" placeholder="中文/拼音/首字母"></p>
+                <p><span>出发日期</span><input type="text" placeholder="2017-10-16"></p>
+
+                <a href="#" class="search">搜索</a>
+            </div>
+            <div>
+                <p class="hanxian"><span>航线</span><input type="text" placeholder="选择航线"></p>
+                <p><span>起航日期</span><input type="text" placeholder="2017-10-16"></p>
+                <a href="#" class="search">搜索</a>
+
+                <a href="javascript:;" class="dingdan">查询轮船订单</a>
+            </div>
+
+        </div>
+        <div class="cf-right fr">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="./images/bus/70090l000000cxtwpBA0D_780_235_42.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./images/bus/700q0j000000a021fCF80_780_235_42.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="no-slide">
+                <img src="./images/bus/wxbanner-1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="content-second z-w">
+        <div class="cs-left">
+            <h4>汽车票工具箱</h4>
+            <ul>
+                <li><i></i>我的订单</li>
+                <li><i></i>常见问题</li>
+                <li><i></i>在线服务</li>
+                <li><i></i>建议反馈</li>
+            </ul>
+            <div id="cars" class="csl-top">
+                <p><input type="radio" checked name="cars"><a href="#">全国汽车时刻表</a><input type="radio" name="cars"><a href="#">全国汽车站</a></p>
+                <div class="car-text">
+                    <input type="text" placeholder="中文/拼音/首字母"><i></i><input type="text" placeholder="中文/拼音/首字母">
+                    <button>查询</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="cs-right">
+            <div class="csr-title">
+                <p class="r-title">汽车运输企业旗舰店</p>
+                <ul>
+                    <li><img src="./images/bus/bashitong.png" alt="">
+                        <p>上海巴士国际旅游有限公司</p>
+                    </li>
+                    <li><img src="./images/bus/nanjinglvyou.png" alt="">
+                        <p>江苏南京旅游集散中心客运公司</p>
+                    </li>
+                    <li><img src="./images/bus/gxcdnn.png" alt="">
+                        <p>广西超大运输集团有限公司</p>
+                    </li>
+                    <li><img src="./images/bus/qinzhoutaihe.png" alt="">
+                        <p>广西钦州泰禾运输集团有限责任公司</p>
+                    </li>
+                    <li><img src="./images/bus/gxccjt.png" alt="">
+                        <p>广西驰程汽车运输集团</p>
+                    </li>
+                    <li><img src="./images/bus/gxxdxxt.png" alt="">
+                        <p>广西现代运输集团有限公司</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content-third z-w" style="padding-top:20px;">
+        <div class="ct-left">
+            <h3>服务资讯</h3>
+            <ul style="color:#999999;">
+                <li>
+                    <span class="fr">2017-03-31</span>
+                    <a href="javascript:;" class="hot">上海、重庆、成都、杭州, 苏州上线跨城接送机<i></i></a>
+
+                </li>
+                <li>
+                    <span class="fr">2017-04-20</span>
+                    <a href="javascript:;" class="hot">五一假期汽车票陆续开售 汽车票预约功能可提前锁定热门票<i></i></a>
+
+                </li>
+                <li>
+                    <span class="fr">2017-03-22</span>
+                    <a href="javascript:;" class="hot">汽车票实名制购票政策实施，哪些问题你值得注意?<i></i></a>
+
+                </li>
+                <li>
+                    <span class="fr">2017-03-01</span>
+                    <a href="javascript:;">“90后”与“互联网+”汽车票间不得不说的故事</a>
+                </li>
+                <li>
+                    <span class="fr">2017-03-31</span>
+                    <a href="javascript:;">携程汽车票小问答</a>
+                </li>
+            </ul>
+        </div>
+        <div class="ct-right fr">
+            <h3>战略合作</h3>
+            <ul>
+                <li><img src="./images/bus/hzcy.png" alt=""><span>杭州长运</span></li>
+                <li><img src="./images/bus/scqcp.png" alt=""><span>四川客运联网</span></li>
+                <li><img src="./images/bus/lvtu.png" alt=""><span>江西旅途110</span></li>
+                <li><img src="./images/bus/henan.png" alt=""><span>河南客运联网</span></li>
+                <li><img src="./images/bus/ynky.png" alt=""><span>云南客运联网</span></li>
+                <li><img src="./images/bus/nbby.png" alt=""><span>宁波公运集团</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="addr">
+        <div class="base_bd z-w">
+            <ul class="QRcode_img">
+                <li class="app"><i></i></li>
+                <li class="weixin"><i></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="carstop z-w">
+        <div class="cs-text">
+            <p>携程旅行网为您提供汽车票查询预订，汽车时刻表查询，汽车票价查询，汽车票余票信息，汽车票代售点预售期信息，汽车客运站信息查询服务。</p>
+            <h4>全国热门汽车站</h4>
+            <ul class="">
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/dongying-14" target="_blank">东营汽车站</a>
+                    <span>4560条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/suzhou-21" target="_blank">苏州汽车站</a>
+                    <span>34488条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/hangzhou-36" target="_blank">杭州汽车站</a>
+                    <span>18980条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/ningbo-37" target="_blank">宁波汽车站</a>
+                    <span>15596条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/yancheng-28" target="_blank">盐城汽车站</a>
+                    <span>8831条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/guangzhou-71" target="_blank">广州汽车站</a>
+                    <span>1277条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/shenzhen-70" target="_blank">深圳汽车站</a>
+                    <span>2518条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/jiaxing-40" target="_blank">嘉兴汽车站</a>
+                    <span>7031条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/xiamen-95" target="_blank">厦门汽车站</a>
+                    <span>14399条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/hefei-50" target="_blank">合肥汽车站</a>
+                    <span>8084条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/zhenjiang-33" target="_blank">镇江汽车站</a>
+                    <span>11630条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/fuzhou-94" target="_blank">福州汽车站</a>
+                    <span>16746条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/nantong-26" target="_blank">南通汽车站</a>
+                    <span>24263条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/wuhan-144" target="_blank">武汉汽车站</a>
+                    <span>65957条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/beijing-596" target="_blank">北京汽车站</a>
+                    <span>7826条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/shanghai-710" target="_blank">上海汽车站</a>
+                    <span>17535条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/zibo-6" target="_blank">淄博汽车站</a>
+                    <span>6371条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/yangzhou-27" target="_blank">扬州汽车站</a>
+                    <span>14601条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/kunshan-416" target="_blank">昆山汽车站</a>
+                    <span>14020条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/tianjin-2486" target="_blank">天津汽车站</a>
+                    <span>4480条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/jinan2-2" target="_blank">济南汽车站</a>
+                    <span>23275条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/nanjing2-22" target="_blank">南京汽车站</a>
+                    <span>30209条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/shenyang2-187" target="_blank">沈阳汽车站</a>
+                    <span>1831条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/chongqing-397" target="_blank">重庆汽车站</a>
+                    <span>10200条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/zhengzhou-122" target="_blank">郑州汽车站</a>
+                    <span>36658条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/wuhu-51" target="_blank">芜湖汽车站</a>
+                    <span>3564条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/nanchang-175" target="_blank">南昌汽车站</a>
+                    <span>17961条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/dongguan-72" target="_blank">东莞汽车站</a>
+                    <span>18943条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/panzhihua-236" target="_blank">攀枝花汽车站</a>
+                    <span>1253条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/jingdezhen-183" target="_blank">景德镇汽车站</a>
+                    <span>3962条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/lishui3-44" target="_blank">丽水汽车站</a>
+                    <span>8854条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/xian2-320" target="_blank">西安汽车站</a>
+                    <span>11278条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/zhangjiagang-494" target="_blank">张家港汽车站</a>
+                    <span>5084条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/kunming-246" target="_blank">昆明汽车站</a>
+                    <span>10132条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/shantou2-78" target="_blank">汕头汽车站</a>
+                    <span>3115条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/wenzhou-38" target="_blank">温州汽车站</a>
+                    <span>6136条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/shaoxing2-42" target="_blank">绍兴汽车站</a>
+                    <span>8963条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/changsha-161" target="_blank">长沙汽车站</a>
+                    <span>16796条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/sanming-100" target="_blank">三明汽车站</a>
+                    <span>8028条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/putian3-97" target="_blank">莆田汽车站</a>
+                    <span>2352条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/changshu-410" target="_blank">常熟汽车站</a>
+                    <span>14300条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/yinchuan-361" target="_blank">银川汽车站</a>
+                    <span>14394条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/chengdu-225" target="_blank">成都汽车站</a>
+                    <span>18818条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/wuxi-23" target="_blank">无锡汽车站</a>
+                    <span>16721条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/nanning-104" target="_blank">南宁汽车站</a>
+                    <span>19822条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/zhongshan-74" target="_blank">中山汽车站</a>
+                    <span>10142条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/maanshan-60" target="_blank">马鞍山汽车站</a>
+                    <span>1876条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/huainan-54" target="_blank">淮南汽车站</a>
+                    <span>1819条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/taizhou2-41" target="_blank">台州汽车站</a>
+                    <span>6945条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/huhehaote-307" target="_blank">呼和浩特汽车站</a>
+                    <span>3505条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/liaocheng-9" target="_blank">聊城汽车站</a>
+                    <span>5378条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/quanzhou-96" target="_blank">泉州汽车站</a>
+                    <span>7593条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/changde-164" target="_blank">常德汽车站</a>
+                    <span>5440条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/jining2-7" target="_blank">济宁汽车站</a>
+                    <span>4315条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/zhangzhou-98" target="_blank">漳州汽车站</a>
+                    <span>3909条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/changzhou-24" target="_blank">常州汽车站</a>
+                    <span>25457条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/xuancheng3-62" target="_blank">宣城汽车站</a>
+                    <span>3907条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/sanya-119" target="_blank">三亚汽车站</a>
+                    <span>4612条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/yaan-242" target="_blank">雅安汽车站</a>
+                    <span>2145条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/foshan-73" target="_blank">佛山汽车站</a>
+                    <span>19483条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/haikou-118" target="_blank">海口汽车站</a>
+                    <span>6119条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/nanping-101" target="_blank">南平汽车站</a>
+                    <span>2840条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/jiangyin-420" target="_blank">江阴汽车站</a>
+                    <span>10147条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/zigong-230" target="_blank">自贡汽车站</a>
+                    <span>1178条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/lianyungang-30" target="_blank">连云港汽车站</a>
+                    <span>7596条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/yantai-3" target="_blank">烟台汽车站</a>
+                    <span>19919条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/puyang-132" target="_blank">濮阳汽车站</a>
+                    <span>10811条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/xinxiang-124" target="_blank">新乡汽车站</a>
+                    <span>14253条班次</span>
+                </li>
+                <li>
+                    <a href="http://bus.ctrip.com/s/zhan/nanchong-228" target="_blank">南充汽车站</a>
+                    <span>1879条班次</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="z-footer z-w">
+        <p>
+            <a href="http://pages.ctrip.com/public/sitemap/sitemap.htm" target="_blank" title="网站导航">网站导航</a>&nbsp;|&nbsp;
+            <a href="http://hotels.ctrip.com/jiudian/" target="_blank" title="宾馆索引">宾馆索引</a>&nbsp;|&nbsp;
+            <a href="http://flights.ctrip.com/booking/hot-city-flights-sitemap.html " target="_blank" title="机票索引">机票索引</a>&nbsp;|&nbsp;
+            <a href="http://pages.ctrip.com/public/sitemap/dj.html" title="旅游索引">旅游索引</a>&nbsp;|&nbsp;
+            <a href="http://ct.ctrip.com/crptravel/sitemap.html" title="商旅索引">商旅索引</a>&nbsp;|&nbsp;
+            <a title="攻略索引" href="http://you.ctrip.com/sitemap/">攻略索引</a>&nbsp;|&nbsp;
+            <a rel="nofollow" href="http://pages.ctrip.com/public/ctripab/abctrip.htm" target="_blank" title="关于携程">关于携程</a>&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" href="http://pages.ctrip.com/commerce/promote/201201/other/qygm/index.html" title="企业公民">企业公民</a>&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" title="诚聘英才" href="http://job.ctrip.com/">诚聘英才</a>&nbsp;|&nbsp;
+            <a rel="nofollow" title="智慧旅游" href="http://you.ctrip.com/Intelligence.html">智慧旅游</a>&nbsp; |&nbsp;
+            <a rel="nofollow" target="_blank" href="http://u.ctrip.com/" title="分销联盟">分销联盟</a>&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" href="http://pages.ctrip.com/public/dlhz.htm" title="代理合作">代理合作</a>&nbsp;|&nbsp;
+            <a target="_blank" href="http://ct.ctrip.com" title="企业商旅">企业商旅</a>&nbsp;|&nbsp;
+            <a target="_blank" href="http://ct.ctrip.com/crptravel/default/landing" title="中小企业差旅">中小企业差旅</a>&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" href="http://pages.ctrip.com/public/ctripad/adyw.htm" title="广告业务">广告业务</a>&nbsp;|&nbsp;
+
+            <a rel="nofollow" target="_blank" href="http://pages.ctrip.com/public/contact.htm" title="联系我们">联系我们</a>
+        </p>
+        <p>
+            <a rel="nofollow" href="http://pages.c-ctrip.com/cooperation/web/cooperation.html#ctm_ref=ctr_hp_btm_coop" target="_blank">加盟合作</a>&nbsp;|&nbsp;
+            <a rel="nofollow" href="http://hotels.ctrip.com/jiameng#ctm_ref=ctr_def_btm_hsu_n_1" target="_blank" title="酒店加盟">酒店加盟</a>&nbsp;|&nbsp;
+            <a rel="nofollow" href="http://dst.ctrip.com/">目的地及景区合作</a>&nbsp;|&nbsp;
+            <a rel="nofollow" href="http://pages.ctrip.com/public/serve%20guideline.htm" target="_blank" title="用户协议">用户协议</a>&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" href="http://pages.ctrip.com/public/diploma/company.htm">营业执照</a>&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" href="http://pages.ctrip.com/tour/ingroupline_pages.asp?folder=ingroup0904&amp;file=0177" title="旅游度假资质">旅游度假资质</a>&nbsp;|&nbsp;
+
+            <a rel="nofollow" target="_blank" href="https://insurance.ctrip.com/portal/index.aspx">保险代理</a>&nbsp;|&nbsp;
+            <a target="_blank" href="http://pages.ctrip.com/public/link/ctrip_link.html">友情链接</a>&nbsp;|&nbsp;
+            <a rel="nofollow" href="http://pages.ctrip.com/public/copyright.htm" id="copyright">Copyright©</a>1999-2017,&nbsp;
+            <a href="http://www.ctrip.com/">ctrip.com</a>. All rights reserved.&nbsp;|&nbsp;
+            <a rel="nofollow" target="_blank" href="http://www.miibeian.gov.cn/">ICP证：沪B2-20050130</a></p>
+        <p class="gns">
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010502000018"><i class="icon-gns"></i>沪公网备31010502000018号</a></p>
+        <div class="honour_wrap">
+            <a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=163178864X" title="网信编码：163178864X" class="honour1" target="_blank" rel="nofollow">信用评级</a>
+            <a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20110428175405415" title="工商亮照标识" class="honour2" target="_blank" rel="nofollow">上海工商</a>
+            <a href="http://search.cxwz.org/cert/l/CX20111018000615000623" title="诚信认证示范企业" class="honour3" target="_blank" rel="nofollow">诚信网站</a>
+            <a href="http://www.zx110.org/" class="honour4" target="_blank" rel="nofollow" title="征信网">网络社会征信网</a>
+            <a href="http://www.shjbzx.cn/" class="honour5" target="_blank" rel="nofollow" title="上海市互联网违法与违规信息举报中心">信息举报中心</a>
+            <a href="https://ss.knet.cn/verifyseal.dll?sn=e12061531010025926306977" class="honour6" target="_blank" rel="nofollow" title="可信网站">可信网站</a>
+            <a href="http://www.12377.cn/" class="honour8" title="违法和不良信息举报中心" target="_blank" rel="nofollow">违法和不良信息举报中心</a></div>
+    </div>
+    <div class="fixed">
+        <ul>
+            <li class="totop" style="visibility: none;"></li>
+            <li class=" jianyi ">建议反馈</li>
+            <li class="kefu ">在线客服</li>
+        </ul>
+    </div>
+    <script src="./js/jquery-3.2.1.js "></script>
+    <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js "></script>
+    <script src="./js/tabs.js "></script>
+    <script>
+        $(function() {
+            $('#tabs').tabs();
+            $(window).scroll(function() {
+                if ($(this).scrollTop() >= 1000) {
+                    $(".totop ").attr('style', 'display:block;');
+                } else {
+                    $(".totop ").attr('style', 'visibility:hidden;')
+                }
+            });
+            $('.totop').on('click', function() {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 1000);
+                return false;
+            });
+        })
+    </script>
+</body>
+
+</html>

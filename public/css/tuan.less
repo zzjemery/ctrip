@@ -1,0 +1,681 @@
+body,p,h2,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.tuan-container{
+    width: 100%; 
+    background-color: #f4f4f4;
+    padding-top: 50px;
+    .tuan-header-search{
+        width: 1180px;
+        height: 65px;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 30px;
+        .city{
+            width: 186px;
+            float: left;
+            border: 2px solid #ff9913;
+            padding: 4px 10px;
+            height: 28px;
+            background-color: #fff;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            .icon{
+                width: 16px;
+                height: 29px;
+                margin-right: 5px;
+                float: left;
+                background: url("../images/tuan/sprite0806.png") no-repeat;
+                background-position: -96px -147px;
+            }
+            input{
+                width: 161px;
+                height: 22px;
+                border: 2px solid white;
+                font-family: 'Microsoft YaHei';
+                font-size: 14px;
+                line-height: 18px;
+                // padding-top: 5px;
+                vertical-align: middle;
+                outline: none;
+            }
+            .change-city{
+                position: absolute;
+                right: 11px;
+                top: 5px;
+                margin-top: 6px;
+                z-index: 999;
+                background-color: #fff;
+                border: 0;
+                padding: 0;
+                color: #999;
+                font-size: 12px;
+                .arrow{
+                    background: url("../images/tuan/sprite0806.png") no-repeat;
+                    display: inline-block;
+                    overflow: hidden;
+                    width: 10px;
+                    height: 6px;
+                    background-position: -48px -240px;
+                    margin-left: 3px;
+                }
+            }
+        }
+        .hotel{
+            width: 530px;
+            height: 37px;
+            margin-left: 100px;
+            float: left;
+            border: 2px solid #ff9a15;
+            position: relative;
+            .title{
+                display: block;
+                width: 52px;
+                height: 37px;
+                padding: 0 0 0 8px;
+                line-height: 37px;
+                border-right: 1px solid #dedede;
+                .arrow{
+                    background: url("../images/tuan/sprite0806.png") no-repeat;
+                    width: 7px;
+                    height: 6px;
+                    background-position: -112px -32px;
+                    display: inline-block;
+                    overflow: hidden;
+                    zoom: 1;
+                    margin-left: 2px;
+                }
+            }
+            .hotels{
+                padding-left: 75px;
+                width: 355px;
+                border: none;
+                padding: 5px;
+                height: 27px;
+                line-height: 27px;
+                vertical-align: middle;
+                font-size: 14px;
+                border-radius: 0px;
+                float: left;
+                position: absolute;
+                top: 0;
+                left: 61px;
+                outline: none;
+                color: #ccc;
+            }
+            .inp-btn{
+                background-color: #ff9a15;
+                color: #fff;
+                font-size: 16px;
+                padding: 0 36px;
+                height: 37px;
+                line-height: 41px;
+                display: inline-block;
+                overflow: hidden;
+                zoom: 1;
+                vertical-align: middle;
+                font-family: 'Microsoft YaHei';
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+        .tui-mian{
+            float: right;
+            padding: 0px 10px 0 0;
+            ul{
+                li{
+                    float: left;
+                    a{
+                        display: block;
+                        padding-top: 35px;
+                        text-align: center;
+                        width: 65px;
+                        color: #999;
+                        background: url("../images/tuan/sprite0806.png") no-repeat;
+                        font-size: 12px;
+                    }
+                    .tui{
+                        background-position: -254px -55px;
+                    }
+                    .guo{
+                        background-position: -254px -187px;
+                    }
+                    .mian{
+                        background-position: -254px -121px;
+                    }
+                }
+            }
+        }
+    }
+    .trains-nav{
+        position: relative;
+        width: 1180px;
+        margin: 0 auto;
+        background-color: #f4f4f4;
+        height: 750px;
+        .classification{
+            width: 210px;
+            border: 2px solid #ff9a13;
+            float: left;
+            h3{
+                background-color: #ff9913;
+                width: 180px;
+                height: 29px;
+                padding: 11px 0 0 30px;
+                font-size: 14px;
+                color: #fff;
+                display: block;
+                font-weight: bold;
+                cursor: pointer;
+                margin:0;
+            }
+            dl{
+                border-top: 1px solid #e5e5e5;
+                padding: 18px 10px 17px;
+                margin-top: -1px;
+                overflow: hidden;
+                zoom: 1;
+                padding-left: 26px;
+                background-color: #fff;
+                padding-top: 18px;
+                dt{
+                    padding-bottom: 2px;
+                    position: relative;
+                    margin: 0;
+                    a{
+                        font-size: 16px;
+                        color: #333;
+                        font-family: 'Microsoft YaHei';
+                        position: relative;
+                        line-height: 15px;
+                        font-weight: bold;
+                    }
+                }
+                dd{
+                    a{
+                        margin-right: 10px;
+                        color: #666;
+                        line-height: 22px;
+                        display: inline-block;
+                        overflow: hidden;
+                        zoom: 1;
+                        vertical-align: middle;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .trains-nav-list{
+            border-bottom: 2px solid #ff9a13;
+            padding: 11px 0 6px;
+            width: 965px;
+            float: left;
+            li{
+                float: left;
+                padding-left: 30px;
+                a{
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #333;
+                     &:hover {
+                        color: #ff7f00;
+                    }
+                }
+               
+            }
+        }
+        .fire-list{
+            width: 720px;
+            float: left;
+            margin-left: 10px;
+            background-color: #fff;
+            margin-top: 5px;
+            ul{
+                padding-left: 10px;
+            }
+            li:first-child{
+                margin-top: -1px;
+            }
+            li {
+                border-top: 1px solid #e5e5e5;
+                padding: 14px 0 15px 0;
+                position: relative;
+                height: 20px;
+                h5{
+                    background: url("../images/tuan/sprite0806.png") no-repeat;
+                    float: left;
+                    margin:0;
+                    padding-left: 18px;
+                    color: #a1a1a1;
+                    float: left;
+                    padding-right: 10px;
+                }
+                .tg{
+                    background-position: -287px -249px;
+                }
+                .qy{
+                    background-position: -287px -298px;
+                }
+                .sq{
+                    background-position: -287px -341px;
+                }
+                a{
+                    margin-right: 20px;
+                    color: #333;
+                    font-size: 12px;
+                    float: left;
+                    line-height: 1.5;
+                    &:hover{
+                        color: #0066cc;
+                    }
+                }
+            }
+        }
+        .tuan-slide{
+            overflow: hidden;
+            zoom: 1;
+            position: relative;
+            height: 255px;
+            width: 720px;
+            float: left;
+            margin: 0;
+            margin-left: 10px;
+            .tuan-slide-img-list{
+                li{
+                        height: 246px;
+                    width: 720px;
+                    a{
+                        display: block;
+                        height: 246px;
+                        width: 720px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+            .dot{
+            height: 15px;
+            position: absolute;
+            bottom: 15px;
+            right: 10px;
+            .li-bg{
+                background-color: #f8cd47;
+            }
+            li{
+                display: inline-block;
+                overflow: hidden;
+                width: 11px;
+                height: 11px;
+                margin-right: 5px;
+                border: 2px solid #fff;
+                border-radius: 11px 11px 11px 11px;
+                cursor: pointer;
+                list-style: none;
+                background-color: #0ab0e8;
+                &:hover{
+                    background-color: #f8cd47;
+                }
+            }
+            }
+        }
+        .right-side{
+            position: absolute;
+            right: 0;
+            top: 45px;
+            width: 222px;
+            padding-left: 13px;
+            .remai-tuijian{
+                background-color: #fff;
+                border: 1px solid #e5e5e5;
+                margin-bottom: 12px;
+                padding: 10px 6px 6px;
+                h5{
+                    color: #666;
+                    font-size: 12px;
+                    margin: 0;
+                    padding: 0;
+                    padding-left: 6px;
+                    padding-bottom: 5px;
+                }
+                img{
+                    width: 208px;
+                    height: 138px;
+                    margin: auto;
+                }
+                .item-title{
+                    
+                    color: #666;
+                    padding: 5px 2px 0;
+                    max-height: 36px;
+                    overflow: hidden;
+                    font-size: 12px;
+                }
+                .item-price{
+                    .price{
+                        font-family: Tahoma, Geneva, sans-serif;
+                        color: #ff7f00;
+                        font-size: 18px;
+                        float: left;
+                        i{
+                            color: #ff7f00;
+                            font-style: normal;
+                            padding-right: 3px;
+                            font-weight: bold;
+                            font-size: 12px;
+                        }
+                    }
+                    .renqi{
+                        color: #999;
+                        font-size: 12px;
+                        float: right;
+                        line-height: 30px;
+                    }
+                }
+                .more{
+                    border-top: 1px solid #e4e4e4;
+                    padding: 8px 0;
+                    text-align: center;
+                    display: block;
+                    color: #0066cc;
+                    font-size: 12px;
+                    margin-top: 15px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .phone-app{
+                background-color: #fff;
+                padding: 10px 15px;
+                .img{
+                    width: 76px;
+                    float: left;
+                    margin-right: 10px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                 h6{
+                    padding: 15px 0 10px;
+                    color: #666;
+                    font-size: 12px;
+                    text-align: center;
+                    font-weight: bold;
+                }
+                .mobile-box{
+                    text-align: center;
+                   
+                    .btn{
+                        font-size: 12px;
+                        border: 1px solid #aaaaaa;
+                        background-color: #fff;
+                        color: #fe8d00;
+                        padding: 2px 0;
+                        width: 88px;
+                        text-align: center;
+                        display: inline-block;
+                       &:hover{
+                           background-color: #fe8d00;
+                           color: #fff;
+                       }
+                    }
+                }
+                .serach-email{
+                    margin-top: 35px;
+                    border-top: 1px solid #e4e4e4;
+                    // padding-top: 10px;
+                    h6{
+                        text-align: left;
+                    }
+                    .inp{
+                        height: 30px;
+                    }
+                    input{
+                        border: 1px solid #bbb;
+                        height: 22px;
+                        padding: 0 5px;
+                        line-height: 22px;
+                        font-size: 12px;
+                        vertical-align: middle;
+                        border-right: 0;
+                        width: 132px;
+                        box-shadow: 1px 1px 3px #d5d5d5 inset;
+                        border-bottom-color: #ddd;
+                        float: left;
+                        border-radius: 0px;
+                        outline: none;
+                    }
+                    .email-btn{
+                        background-color: #fe8d00;
+                        vertical-align: middle;
+                        color: #fff;
+                        font-weight: bold;
+                        padding: 0 10px;
+                        float: left;
+                        height: 24px;
+                        line-height: 24px;
+                        border: none;
+                    }
+                }
+            }
+            .tuhou-img{
+                margin-top: 15px;
+            }
+            .zuijinliulan{
+                padding: 10px;
+                background-color: #fff;
+                height: 80px;
+                .title{
+                    height: 18px;
+                    .empty{
+                        float: right;
+                        color: #0066cc;
+                        font-size: 12px;
+                    }
+                }
+                h6{
+                    color: #666;
+                    font-size: 12px;
+                    float: left;
+                    i{
+                        width: 16px;
+                        height: 16px;
+                        background-position: -94px 0;
+                        display: inline-block;
+                        overflow: hidden;
+                        zoom: 1;
+                        vertical-align: middle;
+                        margin-right: 5px;
+                        position: relative;
+                        top: -1px; 
+                        background: url("../images/tuan/sprite0806.png") no-repeat;
+                        background-position: -94px 0;
+                    }
+                   
+                }
+                .item-des{
+                    img{
+                        width: 90px;
+                        height: 60px;
+                        float: left;
+                    }
+                }
+                .item-price{
+                    margin-left: 10px;
+                    .price{
+                        font-family: Tahoma, Geneva, sans-serif;
+                        color: #ff7f00;
+                        font-size: 18px;
+                        float: left;
+                        padding-left: 10px;
+                        i{
+                            color: #ff7f00;
+                            font-style: normal;
+                            padding-right: 3px;
+                            font-weight: bold;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .item-des{
+                    margin-top: 5px;
+                    img{
+                        float: left;
+                    }
+                    a{
+                        color: #06c;
+                        margin-left: 10px;
+                        font-size: 12px;
+                    }
+                }
+            }
+                
+        }
+        .tuangou-jingxuna{
+            float: left;
+            width: 945px;
+            .hd{
+                h6{
+                    color: #ff9a13;
+                    font-size: 16px;
+                    font-family: 'Microsoft YaHei';
+                    padding-bottom: 5px;
+                }
+            }
+            .detial-list{
+                background-color: #fff;
+                overflow: hidden;
+                zoom: 1;
+                border: 1px solid #e6e6e6;
+                border-bottom: 0;
+                border-left: 0;
+                
+            }
+        }
+    }
+    .img-detial{
+        border-bottom: 1px solid #e6e6e6;
+        border-left: 1px solid #e6e6e6;
+        float: left;
+        border-bottom-width: 2px;
+        padding: 11px 12px 9px 11px;
+        width: 212px;
+        height: 226px;
+        &:hover {
+            border-bottom-color: #ff9a13;
+        }
+        img{
+            width: 210px;
+            height: 140px;
+            border: 1px solid #e6e6e6;
+        }
+        .item-type{
+            padding-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            height: 25px;
+            overflow: hidden;
+            text-align: left;
+        }
+        .item-desc{
+            color: #666;
+            font-size: 12px;
+            text-align: left;
+        }
+        .item-set {
+            padding-top: 3px;
+            width: 210px;
+            .syn{
+                color: #ff7f00;
+                font-style: normal;
+                padding-right: 3px;
+                font-weight: bold;
+                font-size: 12px;
+            }
+            .price {
+                font-family: "Microsoft Yahei";
+                font-size: 18px;
+                color: #ff7f00;
+                font-weight: normal;
+                font-weight: bold;
+            }
+        }
+    }
+    .tuan-floor-hotel{
+        width: 1180px;
+        margin: 0 auto;
+        height: 1250px;
+        .hotel-list{
+            float:left;
+            .hd{
+                border-bottom: 3px solid #0fc4d7;
+                padding-bottom: 8px;
+                position: relative;
+                h2{
+                    i{
+                        display: inline-block;
+                        width: 27px;
+                        height: 27px;
+                        background: url("../images/tuan/sprite0806.png") no-repeat;
+                        background-position: -114px 0;
+                        margin-right: 7px;
+                        vertical-align: middle;
+                        position: relative;
+                        top: -1px;
+                    }
+                }
+            }
+            .detial-list{
+                height: 380px;
+                margin-top: 10px;
+            }
+        }
+        .img-detial{
+            width: 300px;
+            height: 350px;
+            background-color: #fff;
+            margin-right: 18px;
+            border: 1px solid #e5e5e5;
+            border-bottom: 2px solid #e5e5e5;
+            img{
+                width: 300px;
+                height: 200px;
+            }
+            .item-desc{
+                padding: 5px 0;
+            }
+            .price{
+                font-size: 30px;
+            }
+            &:hover{
+                border: 1px solid #ff9a13;
+                border-bottom: 2px solid #ff9a13;
+            }
+        }
+        .last{
+            margin-right: 0;
+        }
+        
+        .item-star{
+            padding: 8px 0; 
+            button{
+                padding: 0 5px 1px;
+                color: #609cd7;
+                border: 1px solid #a6cfec;
+                margin-right: 10px;
+                line-height: 15px;
+                background-color: #f0f7fc;
+                display: inline-block;
+                overflow: hidden;
+                zoom: 1;
+                vertical-align: middle;
+            }
+        }
+    }
+}

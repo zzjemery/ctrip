@@ -1,0 +1,1053 @@
+.z-w {
+  width: 1180px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.z-w a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+fieldset {
+  padding: .35em .625em .75em;
+  margin: 0 2px;
+  border: 1px solid silver;
+}
+legend {
+  padding: .5em;
+  border: 0;
+  width: auto;
+}
+.disn {
+  display: none;
+}
+.disb {
+  display: block;
+}
+.sanjiaoxin {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  border-left: 5px solid #fff;
+}
+.t2_td_tit {
+  position: relative;
+  z-index: 1;
+  margin: 0 -5px;
+  padding-left: 5px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+.content-first-cr {
+  padding-top: 50px;
+  position: relative;
+}
+.content-first-cr .cf-left-cr {
+  float: left;
+  width: 328px;
+  cursor: pointer;
+}
+.content-first-cr .cf-left-cr div {
+  border-left: 2px solid #EAF1FC;
+}
+.content-first-cr .cf-left-cr p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0899EE;
+}
+.content-first-cr .cf-left-cr i {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/cruise/sprit.png);
+  margin-right: 5px;
+}
+.content-first-cr .cf-left-cr .modlue1-cr {
+  padding: 10px;
+  height: 75px;
+  border-top: 1px solid #EAE9E6;
+  border-right: 1px solid #EAE9E6;
+  border-bottom: 1px solid #EAE9E6;
+}
+.content-first-cr .cf-left-cr .modlue1-cr .tips1-cr {
+  background-position: -30px -400px;
+}
+.content-first-cr .cf-left-cr .modlue1-cr a {
+  line-height: 24px;
+  margin: 5px 0 5px 16px;
+  font-size: 12px;
+  color: #323534;
+}
+.content-first-cr .cf-left-cr .modlue1-cr .orange {
+  color: #FF9003;
+}
+.content-first-cr .cf-left-cr .modlue2-cr {
+  padding: 10px;
+  height: 75px;
+  border-right: 1px solid #EAE9E6;
+  border-bottom: 1px solid #EAE9E6;
+}
+.content-first-cr .cf-left-cr .modlue2-cr .tips2-cr {
+  background-position: -30px -420px;
+}
+.content-first-cr .cf-left-cr .modlue2-cr a {
+  line-height: 24px;
+  margin: 5px 0 5px 16px;
+  font-size: 12px;
+  color: #323534;
+}
+.content-first-cr .cf-left-cr .modlue3-cr {
+  padding: 10px;
+  height: 90px;
+  border-right: 1px solid #EAE9E6;
+  border-bottom: 1px solid #EAE9E6;
+}
+.content-first-cr .cf-left-cr .modlue3-cr .tips3-cr {
+  background-position: -30px -440px;
+}
+.content-first-cr .cf-left-cr .modlue3-cr a {
+  line-height: 24px;
+  margin: 5px 0 5px 20px;
+  font-size: 12px;
+  color: #323534;
+}
+.content-first-cr .cf-left-cr .modlue1-cr:hover,
+.content-first-cr .cf-left-cr .modlue2-cr:hover,
+.content-first-cr .cf-left-cr .modlue3-cr:hover {
+  border-left: 2px solid #06d;
+}
+.content-first-cr .slide {
+  float: right;
+  width: 850px;
+  height: 240px;
+}
+.content-first-cr .slide .carousel-indicators {
+  left: 95%;
+  width: 34%;
+}
+.content-first-cr .slide .carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #fff;
+  background-color: #02B2E7;
+}
+.content-first-cr .slide .carousel-indicators .active {
+  background-color: #FFCC45;
+}
+.content-first-cr .other-fixed {
+  position: absolute;
+  top: 50px;
+  left: 327px;
+  width: 640px;
+  height: 240px;
+  overflow: scroll;
+  z-index: 2;
+  background-color: #FFF;
+}
+.content-first-cr .other-fixed h4 {
+  padding: 10px;
+  font-size: 18px;
+  color: #9A9791;
+}
+.content-first-cr #sort1,
+.content-first-cr #sort2,
+.content-first-cr #sort3 {
+  display: none;
+  font-size: 12px;
+  box-shadow: 0 0 5px #D7D5D0;
+}
+.content-first-cr #sort1 a,
+.content-first-cr #sort2 a,
+.content-first-cr #sort3 a {
+  display: inline-block;
+  width: 80px;
+  color: #323534;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+.content-first-cr #sort2,
+.content-first-cr #sort3 {
+  height: 300px;
+}
+.content-first-cr #sort2 a,
+.content-first-cr #sort3 a {
+  width: 100px;
+}
+.content-first-cr .guonei {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.content-first-cr .guowai {
+  padding-left: 30px;
+}
+.content-first-cr .qita {
+  padding-left: 30px;
+}
+.content-second-cr {
+  height: 610px;
+}
+.content-second-cr #cs-tabs-cr {
+  width: 100%;
+  position: relative;
+}
+.content-second-cr #cs-tabs-cr ul {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #EAE9E6;
+}
+.content-second-cr #cs-tabs-cr ul li {
+  float: left;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  font-size: 20px;
+  color: #323534;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.content-second-cr #cs-tabs-cr ul li:hover {
+  color: #0899EE;
+  border-bottom: 2px solid #0899EE;
+}
+.content-second-cr #cs-tabs-cr ul .activ {
+  color: #0899EE;
+  border-bottom: 2px solid #0899EE;
+}
+.content-second-cr #cs-tabs-cr div {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 600px;
+  display: none;
+}
+.content-second-cr #cs-tabs-cr div .list-cr {
+  float: left;
+  padding-left: 1px;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li {
+  float: left;
+  width: 282px;
+  height: 253px;
+  margin: 10px 12px 10px 0;
+  padding: 0;
+  position: relative;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #EAE9E6;
+  cursor: pointer;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li:hover {
+  box-shadow: 0px 0px  10px #2279ee;
+  /*右边阴影  蓝色*/
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .tips-cr {
+  position: absolute;
+  height: 30px;
+  top: 20px;
+  background-image: url(../images/cruise/sprit.png);
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .tips1-cr {
+  display: block;
+  margin-right: -14px;
+  padding-right: 18px;
+  padding-left: 4px;
+  height: 30px;
+  line-height: 26px;
+  background-position: 100% -148px;
+  color: #fff;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .tips2-cr {
+  display: block;
+  margin-right: -14px;
+  padding-right: 18px;
+  padding-left: 4px;
+  height: 30px;
+  line-height: 26px;
+  background-position: 100% -148px;
+  color: #fff;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .tips3-cr {
+  display: block;
+  margin-right: -14px;
+  padding-right: 18px;
+  padding-left: 4px;
+  height: 30px;
+  line-height: 26px;
+  background-position: 100% -148px;
+  color: #fff;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .tips5-cr {
+  display: block;
+  margin-right: -14px;
+  padding-right: 18px;
+  padding-left: 4px;
+  height: 30px;
+  line-height: 26px;
+  background-position: 100% -148px;
+  color: #fff;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .tips8-cr {
+  display: block;
+  margin-right: -14px;
+  padding-right: 18px;
+  padding-left: 4px;
+  height: 30px;
+  line-height: 26px;
+  background-position: 100% -148px;
+  color: #fff;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .sea {
+  position: absolute;
+  top: 130px;
+  left: 60px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .sea i {
+  margin: 0 5px;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .sea1 {
+  left: 120px;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .sea2 {
+  left: 90px;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li p {
+  text-align: left;
+  padding-left: 10px;
+  line-height: 20px;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .name {
+  font-size: 14px;
+  color: #323534;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .desc {
+  color: #9A9791;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .last {
+  font-size: 14px;
+  color: #9C9589;
+  padding-top: 32px;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .last span {
+  float: right;
+  padding-right: 10px;
+  color: #FF5702;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .last span i {
+  font-weight: bold;
+}
+.content-second-cr #cs-tabs-cr div .list-cr li .line2 {
+  padding-top: 13px;
+}
+.content-second-cr #cs-tabs-cr .show {
+  display: block;
+}
+.content-third-cr .ct-title-cr {
+  padding-top: 20px;
+}
+.content-third-cr .ct-title-cr legend {
+  font-size: 30px;
+}
+.content-third-cr .bg_white {
+  background-color: #fff;
+}
+.content-third-cr .bg_white .cru_cont {
+  width: 1180px;
+  margin: 0 auto;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_dolphin {
+  font-style: normal;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_hd {
+  position: relative;
+  z-index: 1;
+  padding: 5px 87px 0 108px;
+  height: 43px;
+  border-bottom: 2px solid #1485e7;
+  background: #29e;
+  border-radius: 8px 8px 0 0;
+  font-size: 14px;
+  color: #fff;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_hd .travel_calendar_viewby {
+  float: left;
+  margin-left: -108px;
+  padding-left: 20px;
+  line-height: 43px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_hd .travel_line_box {
+  position: relative;
+  z-index: 1;
+  height: 45px;
+  overflow: hidden;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_hd .travel_line_box .travel_line_list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300%;
+  height: 45px;
+  overflow: hidden;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_hd .travel_line_box .travel_line_list a {
+  float: left;
+  margin-left: 2px;
+  padding: 0 16px;
+  height: 43px;
+  line-height: 43px;
+  color: #fff;
+  white-space: nowrap;
+  word-break: keep-all;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_hd .travel_line_box .travel_line_list .current {
+  position: relative;
+  z-index: 1;
+  height: 45px;
+  background: #fff;
+  border-radius: 6px 6px 0 0;
+  color: #29e;
+  text-decoration: none;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_hd .travel_line_box .travel_line_list a:hover {
+  position: relative;
+  z-index: 1;
+  height: 45px;
+  background: #fff;
+  border-radius: 6px 6px 0 0;
+  color: #29e;
+  text-decoration: none;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_hd .travel_line_prev {
+  background-image: url(../images/cruise/sprit.png);
+  position: absolute;
+  top: 10px;
+  right: 46px;
+  width: 30px;
+  height: 30px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_hd .tlp_dis,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_hd .tlp_dis:hover .tlp_dis {
+  background-position: 0 -174px;
+  cursor: default;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_hd .travel_line_next {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/cruise/sprit.png);
+  background-position: -32px -110px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch {
+  padding: 10px;
+  height: 70px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col {
+  float: left;
+  margin-right: 40px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .travel_cs_title {
+  margin-bottom: 5px;
+  color: #999;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .travel_cs_title .this_month {
+  display: none;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .switch_month {
+  position: relative;
+  z-index: 2;
+  height: 34px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .switch_month .sm_dis {
+  border-color: #ccc;
+  background-color: #f5f5f5;
+  cursor: default;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .switch_month .sm_prev {
+  position: relative;
+  z-index: 1;
+  float: left;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 3px 0 0 3px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .switch_month .sm_prev .i_caret {
+  background-image: url(../images/cruise/sprit.png);
+  display: block;
+  margin: 12px 13px 11px 14px;
+  width: 5px;
+  height: 9px;
+  overflow: hidden;
+  background-position: -101px -230px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .switch_month .sm_cont {
+  float: left;
+  margin: 0 -1px;
+  width: 122px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: all ease-out 0.2s;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .switch_month .sm_cont .i_caret {
+  background-image: url(../images/cruise/sprit.png);
+  display: block;
+  margin: 1px auto;
+  width: 9px;
+  height: 5px;
+  background-position: -80px -234px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .switch_month .sm_next {
+  position: relative;
+  z-index: 1;
+  float: left;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 0 3px 3px 0;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .switch_month .sm_next .i_caret {
+  background-image: url(../images/cruise/sprit.png);
+  display: block;
+  margin: 12px 13px 11px 14px;
+  width: 5px;
+  height: 9px;
+  overflow: hidden;
+  background-position: -84px -230px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .switch_month .sm_cont_list {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  top: 33px;
+  left: 33px;
+  width: 122px;
+  max-height: 240px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .city_box {
+  position: relative;
+  z-index: 2;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .city_box .city_item {
+  margin-left: -4px;
+  padding: 9px 0;
+  height: 23px;
+  line-height: 15px;
+  overflow: hidden;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .city_box .city_item a {
+  float: left;
+  margin-left: -1px;
+  max-width: 95px;
+  padding: 0 6px;
+  height: 15px;
+  border-left: 1px solid #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .city_box .city_item .selected {
+  color: #333;
+  cursor: default;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .city_box .city_item .all {
+  padding-right: 0;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .city_box .city_item .all .i_caret {
+  background-image: url(../images/cruise/sprit.png);
+  display: inline-block;
+  margin: 0 0 0 4px;
+  width: 9px;
+  height: 5px;
+  background-position: -70px -234px;
+  vertical-align: 2px;
+  overflow: hidden;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .city_box .city_pop {
+  position: absolute;
+  width: 100%;
+  top: 30px;
+  left: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .city_box .city_pop .city_list {
+  padding: 2px 0 10px 11px;
+  overflow: hidden;
+  color: #333;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .travel_cs_col .city_box .city_pop .city_list a {
+  float: left;
+  margin-top: 8px;
+  margin-right: 12px;
+  padding: 0 4px;
+  color: #333;
+  white-space: nowrap;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_switch .link_all {
+  margin: 30px 10px 0 10px;
+  height: 18px;
+  float: right;
+  margin-right: 0;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd {
+  height: 560px;
+  background: #fff;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 584px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_thead {
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  margin-bottom: -4px;
+  height: 20px;
+  line-height: 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  color: #999;
+  overflow: hidden;
+  text-align: center;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_thead .t2_th {
+  float: left;
+  width: 168px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_thead .t2_weekend {
+  color: #f88;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody {
+  padding-top: 4px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td {
+  float: left;
+  width: 167px;
+  height: 88px;
+  border: 1px solid #ccc;
+  margin-right: -1px;
+  margin-top: -1px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available {
+  position: absolute;
+  z-index: 1;
+  margin-left: -1px;
+  margin-top: -1px;
+  padding: 0 5px;
+  width: 167px;
+  height: 88px;
+  border: 1px solid #ccc;
+  border-right: none;
+  cursor: default;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable .t2_td_tit,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available .t2_td_tit {
+  background-color: #fff;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable .t2_td_tit .s_02,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available .t2_td_tit .s_02,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable .t2_td_tit .s_03,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available .t2_td_tit .s_03 {
+  float: right;
+  margin-right: 4px;
+  height: 18px;
+  border-bottom: 2px solid #f60;
+  color: #f60;
+  overflow: hidden;
+  border-color: #06d;
+  color: #1069da;
+  font-size: 12px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable .t2_td_tit .packageTag,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available .t2_td_tit .packageTag {
+  color: #07D086;
+  border-color: #07D086;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable .t2_td_tit .t2_td_day,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available .t2_td_tit .t2_td_day {
+  color: #ccc;
+  font-size: 12px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable .t2_td_ship,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available .t2_td_ship {
+  display: block;
+  position: relative;
+  margin-top: 5px;
+  height: 18px;
+  color: #333;
+  overflow: hidden;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable .t2_td_port,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available .t2_td_port {
+  display: block;
+  position: relative;
+  height: 18px;
+  color: #999;
+  overflow: hidden;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable .base_price,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available .base_price {
+  position: absolute;
+  z-index: 1;
+  right: 8px;
+  bottom: 1px;
+  color: #f60;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable .base_price dfn,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available .base_price dfn {
+  position: relative;
+  z-index: 1;
+  top: 0;
+  color: #f60;
+  font-size: 14px;
+  top: -1px;
+  font-size: 12px;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable .base_price span,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available .base_price span {
+  font-size: 18px;
+  color: #f60;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable .t2_td_schedule,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available .t2_td_schedule {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 42px;
+  height: 20px;
+  overflow: hidden;
+  padding-top: 4px;
+  line-height: 1.2;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_unavailable .t2_td_schedule .i_caret,
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_td .a_available .t2_td_schedule .i_caret {
+  background-image: url(../images/cruise/sprit.png);
+  position: absolute;
+  top: 9px;
+  right: 5px;
+  width: 9px;
+  height: 5px;
+  background-position: -39px -22px;
+  transition: all ease-in 0.2s;
+}
+.content-third-cr .bg_white .cru_cont .travel_calendar .travel_calendar_bd .t2 .t2_tbody .t2_last {
+  width: 184px;
+}
+.content-four-cr .cf-title-cr {
+  padding-top: 20px;
+}
+.content-four-cr .cf-title-cr legend {
+  font-size: 30px;
+}
+.content-five-cr {
+  height: 400px;
+}
+.content-five-cr .cfi-title-cr {
+  padding-top: 20px;
+}
+.content-five-cr .cfi-title-cr legend {
+  font-size: 30px;
+}
+.content-five-cr .slide {
+  padding-top: 80px;
+  width: 1180px;
+  height: 217px;
+}
+.content-five-cr .slide .slide_2 {
+  top: 0;
+  left: 30%;
+  font-size: 18px;
+  height: 30px;
+}
+.content-five-cr .slide .slide_2 li {
+  width: 74px;
+  text-indent: 0;
+  height: 30px;
+  border-radius: 0;
+  line-height: 30px;
+  margin: 10px;
+}
+.content-five-cr .slide .slide_2 .active {
+  border-bottom: 2px solid #0D96E2;
+}
+.content-five-cr .slide p {
+  position: absolute;
+  top: 10px;
+  left: 55%;
+  font-size: 18px;
+  height: 30px;
+  padding-left: 60px;
+  width: 200px;
+  border-left: 1px solid #D0CDC7;
+}
+.content-five-cr .slide p a {
+  color: #323534;
+}
+.content-five-cr .slide p a:hover {
+  text-decoration: underline;
+}
+.all-six-cr {
+  width: 100%;
+  height: 620px;
+  background-color: #F6F5F4;
+}
+.all-six-cr .content-six-cr {
+  font-size: 12px;
+  color: #9A9791;
+}
+.all-six-cr .content-six-cr p {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.all-six-cr .content-six-cr .dll {
+  margin: 10px 0;
+}
+.all-six-cr .content-six-cr .dll dt {
+  width: 50px;
+}
+.all-six-cr .content-six-cr .dll .ddc {
+  margin-left: 70px;
+}
+.all-six-cr .content-six-cr .dll .ddc dd {
+  margin-left: 0;
+  display: inline-block;
+  width: 120px;
+}
+.all-six-cr .content-six-cr .dll .ddc dd a {
+  color: #9A9791;
+}
+.all-six-cr .content-six-cr .page_ft_infos_in {
+  color: #4a4a4a;
+}
+.all-six-cr .content-six-cr .page_ft_infos_in .page_ft_dl {
+  float: left;
+  width: 210px;
+  margin-right: 20px;
+  font-size: 12px;
+}
+.all-six-cr .content-six-cr .page_ft_infos_in .page_ft_dl dt {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.all-six-cr .content-six-cr .page_ft_infos_in .page_ft_dl dd {
+  height: 34px;
+  overflow: hidden;
+  width: 100%;
+  line-height: 20px;
+  font-size: 12px;
+}
+.all-six-cr .content-six-cr .page_ft_infos_in .page_ft_dl dd a {
+  color: #4a4a4a;
+}
+.all-six-cr .content-six-cr .page_ft_infos_in .page_ft_dl dd .page_ft_weibo {
+  background-image: url(../images/cruise/sprit_1.png);
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+  overflow: hidden;
+  margin-right: 10px;
+  background-position: 0 -81px;
+  vertical-align: -3px;
+}
+.all-six-cr .content-six-cr .page_ft_infos_in .page_ft_dl .dd_code {
+  height: 150px;
+}
+.all-six-cr .content-six-cr .page_ft_infos_in .page_ft_dl .dd_code .page_ft_code {
+  background-image: url(../images/cruise/sprit_1.png);
+  width: 123px;
+  height: 121px;
+  overflow: hidden;
+  background-position: 0 -106px;
+}
+.all-six-cr .content-six-cr .page_ft_infos_in .page_ft_dl02 dd {
+  display: inline-block;
+  width: 102px;
+}
+.footer {
+  text-align: center;
+  padding-top: 20px;
+}
+.footer p {
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+.footer p a {
+  color: #4C4C4C;
+}
+.footer p a:hover {
+  text-decoration: underline;
+}
+.footer p .icon-gns {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background-position: 0 -235px;
+  vertical-align: middle;
+  background-image: url(http://pic.c-ctrip.com/platform/online/home/phone_list20170710.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+.footer .honour_wrap {
+  padding-left: 150px;
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
+.footer .honour_wrap a {
+  margin: 0 5px;
+  width: 88px;
+  height: 34px;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  font: 12px/32px Simsun;
+  color: #666;
+  overflow: hidden;
+  text-indent: -99em;
+  white-space: normal;
+  display: inline-block;
+  background-image: url(http://pic.c-ctrip.com/platform/online/home/phone_list20170710.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+.footer .honour_wrap .honour1 {
+  background-position: -88px -50px;
+  text-indent: 36px;
+}
+.footer .honour_wrap .honour2 {
+  background-position: -88px -85px;
+  text-indent: 36px;
+}
+.footer .honour_wrap .honour3 {
+  background-position: 0 -50px;
+}
+.footer .honour_wrap .honour4 {
+  background-position: -88px -118px;
+  text-indent: 0;
+  padding: 2px 0 2px 37px;
+  width: 90px;
+  height: 34px;
+  line-height: 1.2;
+}
+.footer .honour_wrap .honour5 {
+  width: 116px;
+  background-position: 0 -387px;
+}
+.footer .honour_wrap .honour6 {
+  background-position: 0 -118px;
+}
+.footer .honour_wrap .honour8 {
+  background-position: 0 -193px;
+  width: 90px;
+}
+.add {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 700px;
+  border-right: 2px solid #0D96E2;
+}
+.add .cru_sidebar_tabs li {
+  margin-bottom: 2px;
+  height: 40px;
+  background-color: #7ac2f5;
+  border-radius: 4px 0 0 4px;
+  cursor: pointer;
+}
+.add .cru_sidebar_tabs li span {
+  display: inline-block;
+  height: 40px;
+  float: left;
+  background-color: #0899EE;
+  display: none;
+  width: 0px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.add .cru_sidebar_tabs .ico {
+  display: block;
+  float: right;
+  position: relative;
+  z-index: 2;
+  width: 44px;
+  height: 40px;
+  background-color: #7ac2f5;
+  border-radius: 4px 0 0 4px;
+  background: url(../images/cruise/un_sidebar_160907.png) no-repeat;
+}
+.add .cru_sidebar_tabs .ico:hover {
+  background-color: #0899EE;
+}
+.add .cru_sidebar_tabs .tab_history {
+  margin-top: 200px;
+}
+.add .cru_sidebar_tabs .tab_history .ico {
+  background-position: -100px -210px;
+}
+.add .cru_sidebar_tabs .tab_fav .ico {
+  background-position: -100px -250px;
+}
+.add .cru_sidebar_tabs .tab_service .ico {
+  background-position: -100px -290px;
+}
+.add .cru_sidebar_tabs .tab_wechat {
+  background-color: red;
+}
+.add .cru_sidebar_tabs .tab_wechat .ico {
+  background-position: -100px -330px;
+}
+.add .cru_sidebar_tabs .tab_wechat .ico:hover {
+  background-color: red;
+}
+.add .cru_sidebar_tabs .tab_gotop {
+  margin-top: 50px;
+}
+.add .cru_sidebar_tabs .tab_gotop .ico {
+  background-position: -100px -410px;
+}
+.add .cru_sidebar_tabs .tab_feedback .ico {
+  background-position: -100px -450px;
+}

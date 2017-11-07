@@ -1,0 +1,1030 @@
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+em,
+button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.box-center{
+    margin: 0 auto;
+}
+.box-text-m{
+    display: table-cell;
+    vertical-align: middle;
+}
+.clear-b{
+    clear: both;
+}
+.display-n{
+    display: none;
+}
+.float-l{
+    float: left
+}
+.float-r{
+    float: right;
+}
+h4,.h4{
+    font-size: 18px;
+}
+.of{
+    overflow: hidden;
+}
+.position-r{
+    position: relative;
+}
+.position-a{
+    position: absolute;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+////
+.bx{
+    width: 1200px;
+    padding: 10px;
+}
+body{
+    font-size: 14px;
+}
+///
+main{
+    .search-top{
+        .left{
+            color: blue;
+            float: left;
+            padding-right: 20px;
+            .city-station-btn{
+                position: relative;
+                float: left;
+                padding: 0 34px 0 50px;
+                width: 176px;
+                height: 40px;
+                border: 1px solid #D6D6D6;
+                cursor: pointer;
+                font: 16px/38px microsoft yahei,simsun,sans-serif;
+                background-color: #FCFCFC;
+                &:hover{
+                    background-color: #fff;
+                }
+                i{
+                    position: absolute;
+                    width: 14px;
+                    height: 17px;
+                    left: 21px;
+                    top: 11px;
+                    overflow: hidden;
+                    background: url(../images/vacations/vacations01.png) no-repeat -180px -152px;
+                }
+                span{
+                    color: #666;
+                    font-size: 12px;
+                    padding-left: 4px;
+                }
+                b{
+                    position: absolute;
+                    width: 8px;
+                    height: 5px;
+                    top: 17px;
+                    right: 10px;
+                    overflow: hidden;
+                    background: url(../images/vacations/vacations01.png) no-repeat -183px -133px;
+                }
+            }
+            .flt_htl_btn{
+                position: relative;
+                float: left;
+                width: 172px;
+                height: 40px;
+                padding: 0 37px 0 35px;
+                border: 1px solid #D6D6D6;
+                border-left-width: 0;
+                background-color: #FCFCFC;
+                &:hover{
+                    background-color: #fff;
+                }
+                span{
+                    display: inline-block;
+                    height: 38px;
+                    padding-right: 6px;
+                    line-height: 38px;
+                    overflow: hidden;
+                    border-bottom: 1px solid transparent;
+                    font-family: Tahoma,Simsun,sans-serif;
+                    i{
+                        float: left;
+                        width: 44px;
+                        height: 16px;
+                        margin-right: 6px;
+                        position: static;
+                        margin-top: 11px;
+                        background: url(../images/vacations/vacations01.png) no-repeat -117px -152px;
+                    }
+                    b{
+                        position: absolute;
+                        width: 8px;
+                        height: 5px;
+                        top: 17px;
+                        right: 10px;
+                        overflow: hidden;
+                        background: url(../images/vacations/vacations01.png) no-repeat -183px -133px;
+                    }   
+                }
+                a{
+                    position: absolute;
+                    z-index: 999;
+                    top: -5px;
+                    left: 128px;
+                    margin: -4px 0 0 -4px;
+                    width: 23px;
+                    height: 23px;
+                    display: block;
+                    background: url(../images/vacations/vacations01.png) no-repeat -349px -312px;
+                }
+            }
+        }
+        .right{
+            float: left;
+            width: 810px;
+            height: 40px;
+            position: relative;
+            .serch-body{
+                position: relative;
+                float: left;
+                width: 388px;
+                height: 40px;
+                padding-left: 120px;
+                border-radius: 5px 0 0 5px;
+                border: 3px solid #FE9813;
+                box-shadow: 1px 1px 3px #DDD inset;
+                .drop-list{
+                    z-index: 2;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 117px;
+                    border: 1px solid #FE9813;
+                    font-weight: 400;
+                    dt{
+                        position: relative;
+                        line-height: 32px;
+                        padding-left: 10px;
+                        border: 1px solid #FE9813;
+                        border-bottom-color: #fff;
+                        background-color: #FFF8D5;
+                        &.hover{
+                            background-color: #fff;
+                        }
+                        span{
+                            font-weight: normal;
+                        }
+                        b{
+                            position: absolute;
+                            width: 8px;
+                            height: 5px;
+                            top: 15px;
+                            right: 10px;
+                            overflow: hidden;
+                            background: url(../images/vacations/vacations01.png) no-repeat -183px -133px;
+                        }
+                    }
+                    .list-group{
+                        width: 116px;
+                        background-color: #fff;
+                        border: 1px solid #FE9813;
+                        border-top-color: #fff;
+                        display: none;
+                        margin-bottom: 0;
+                        a{
+                            display: block;
+                            line-height: 28px;
+                            padding-left: 10px;
+                            &:hover{
+                                background-color: #f0f0f0;
+                                text-decoration:none;
+                            }
+                        }
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #fff;
+                    }
+                }
+                .input{
+                    position: absolute;
+                    left: 117px;
+                    input{
+                        width: 265px;
+                        height: 34px;
+                        padding: 3px;
+                        font-size: 16px;
+                        border: none;
+                        color: #aaa;
+                    }
+                }
+            }
+            .search-btn{
+                position: absolute;
+                left: 378px;
+                width: 130px;
+                height: 40px;
+                color: white;
+                padding-left: 15px;
+                // border: 1px solid #FE9813;
+                background-color: #FA8C23;
+                font-size: 18px;
+                line-height: 40px;
+                text-align: center;
+                border-radius: 0 5px 5px 0;
+                &:hover{
+                    background-color: red;
+                    cursor: pointer;
+                }
+                i{
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    left: 27px;
+                    top: 10px;
+                    overflow: hidden;
+                    background: url(../images/vacations/vacations01.png) no-repeat -394px -303px;
+                }
+            }
+            .hight-search{
+                position: absolute;
+                left: 508px;
+                width: 106px;
+                line-height: 40px;
+                height: 40px;
+                padding: 0 18px;
+                color: #AD5B12;
+                &:hover{
+                    text-decoration: underline;
+                }
+                b{
+                    display: inline-block;
+                    width: 0;
+                    height: 0;
+                    overflow: hidden;
+                    line-height: 0;
+                    font-size: 0;
+                    vertical-align: middle;
+                    border-left: 5px dashed transparent;
+                    border-right: 5px dashed transparent;
+                    border-top: 5px solid #AD5B12;
+                    border-bottom: 0 none;
+                    margin-left: 4px;
+                }
+            }
+            .hot-search{
+                display: none;
+                position: absolute;
+                top: 45px;
+                left: 0px;
+                z-index: 1;
+                width: 510px;;
+                background-color: white;
+                padding: 20px;
+                line-height: 2;
+                border: 1px solid #ccc;
+                border-top-width: 0;
+                h5{
+                    color: #FC972C;
+                    padding:0px 0 10px;
+                }
+                dl{
+                    padding: 0 5px;
+                    dt{
+                        padding: 5px 0 0;
+                    }
+                    dd{
+                        a{
+                            padding-right: 10px;
+                            font-size: 12px;
+                            font-weight: 100;
+                            color: black;
+                        }
+                    }
+                }
+                .close{
+                    position: absolute;
+                    right: 15px;
+                    top: 15px;
+                    font-size: 10px;
+                    &:hover{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+    .content1{
+        padding: 20px 0 0;
+        .left{
+            padding: 0px 20px 0 0;
+            width: 368px;
+            .container{
+                height: 580px;
+                width: 348px;
+                border: 3px solid #3983E5;
+                position: relative;
+                .row{
+                    padding: 9px 20px;
+                    position: relative;
+                    border: 1px solid #fff;
+                    border-width: 1px 0 1px 0;
+                    // &.hover{
+                    //     border: 1px solid #ccc;
+                    //     z-index: 3;
+                    // }
+                   .bg-img-box{
+                        float: left;
+                        width: 50px;
+                        height: 42px;
+                        position: relative;
+                        .bg-img{
+                            width: 35px;
+                            height: 35px;
+                            background: url(../images/vacations/vacations02.png) no-repeat;
+                            position: absolute;
+                            left: 0px;
+                            top: 0px;
+                        }
+                    }
+                    h4{
+                        float: left;
+                        position: relative;
+                        padding-bottom: 5px;
+                        a{
+                            color: black;
+                            padding: 0 8px 0 0;
+                        }
+                        i{
+                            width: 22px;
+                            height: 13px;
+                            position: absolute;
+                            right: -18px;
+                            top: -7px;
+                            background: url(../images/vacations/vacations02.png) no-repeat -39px 0;
+                        }
+                    }
+                    p{
+                        float: left;
+                        font-size: 12px;
+                        line-height: 1.5;
+                        width: 245px;
+                        a{
+                            padding: 0 7px 0 0;
+                            &.current{
+                                color: red;
+                            }
+                        }
+                    }
+                    b{
+                        position: absolute;
+                        width: 9px;
+                        height: 15px;
+                        left: auto;
+                        right: 10px;
+                        top: 30%;
+                        background: url(../images/vacations/vacations03.png) no-repeat -150px -10px;
+                    }
+                }
+                .row:nth-child(2){
+                    .bg-img-box{
+                        .bg-img{
+                            background: url(../images/vacations/vacations03.png) no-repeat;
+                        }
+                    }
+                    p{
+                        a{
+                            padding: 0 7px 0 0;
+                        }
+                    }
+                }
+                .row:nth-child(3){
+                    .bg-img-box{
+                        .bg-img{
+                            background: url(../images/vacations/vacations03.png) no-repeat -35px 0;
+                        }
+                    }
+                }
+                .row:nth-child(4){
+                    .bg-img-box{
+                        .bg-img{
+                            background: url(../images/vacations/vacations03.png) no-repeat -70px 0;
+                        }
+                    }
+                }
+                 .row:nth-child(5){
+                    .bg-img-box{
+                        .bg-img{
+                            background: url(../images/vacations/vacations03.png) no-repeat -105px 0px;
+                        }
+                    }
+                }
+                .row:nth-child(6){
+                    .bg-img-box{
+                        .bg-img{
+                            background: url(../images/vacations/vacations03.png) no-repeat 0 -35px;
+                        }
+                    }
+                }
+                .row:nth-child(7){
+                    .bg-img-box{
+                        .bg-img{
+                            background: url(../images/vacations/vacations03.png) no-repeat -35px -35px;
+                        }
+                    }
+                }
+                .row:nth-child(8){
+                    .bg-img-box{
+                        .bg-img{
+                            background: url(../images/vacations/vacations03.png) no-repeat -70px -35px;
+                        }
+                    }
+                }
+                .row:nth-child(9){
+                    .bg-img-box{
+                        .bg-img{
+                            background: url(../images/vacations/vacations03.png) no-repeat -105px -35px;
+                        }
+                    }
+                }
+                .dest{
+                    position: absolute;
+                    display: none;
+                    left: 340px;
+                    top: 0px;
+                    z-index: 1;
+                    width: 692px;
+                    border: 2px solid #bbb;
+                    background-color: #fff;
+                    ul{
+                        width: 480px;
+                        padding: 20px 0 0 10px;
+                        li{
+                            margin-bottom: 20px;
+                            overflow: hidden;
+                            h5{
+                                float: left;
+                                width: 100px;
+                                height: 28px;
+                                text-align: right;
+                                margin-right: 8px;
+                                font-weight: bold;
+                            }
+                            p{
+                                float: left;
+                                width: 350px;
+                                a{
+                                    display: inline-block;
+                                    font-size: 12px;
+                                    line-height: 14px;
+                                    margin: 4px 0 4px -1px;
+                                    padding: 0 8px;
+                                    border-left: 1px solid #ccc;
+                                    &.first{
+                                        border-left: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .img{
+                        width: 208px;
+                        overflow: hidden;
+                    }
+                }
+                .dest2{
+                    top: 60px;
+                    .img{
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                    }
+                }
+                .dest3{
+                    ul{
+                        width: 50%;
+                        padding: 20px 0 0 10px;
+                        li{
+                            margin-bottom: 20px;
+                            overflow: hidden;
+                            h5{
+                                float: left;
+                                width: 40px;
+                                height: 28px;
+                                text-align: right;
+                                margin-right: 8px;
+                                font-weight: bold;
+                            }
+                            p{
+                                float: left;
+                                width: 280px;
+                                a{
+                                    display: inline-block;
+                                    font-size: 12px;
+                                    line-height: 14px;
+                                    margin: 4px 0 4px -1px;
+                                    padding: 0 8px;
+                                    border-left: 1px solid #ccc;
+                                    &.first{
+                                        border-left: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right{
+            .container{
+                width: 810px;
+                .row{
+                    .slider-top{
+                        position: relative;
+                        overflow: hidden;
+                        ul{
+                            width: 200%;
+                            li{
+                                float: left;
+                            }
+                        }
+                        p{
+                            position: absolute;
+                            bottom: 5px;
+                            width: 100%;
+                            text-align: right;
+                            span{
+                                box-sizing: content-box;
+                                display: inline-block;
+                                width: 11px;
+                                height: 11px;
+                                border: 2px solid white;
+                                background-color: #0AB0E8;
+                                // background-color: red;
+                                border-radius: 50%;
+                                margin: 0 8px 0 0;
+                                &.current{
+                                    background-color: #F8CD47;
+                                }
+                            }
+                        } 
+                    }
+                    .travel_vane{
+                        box-sizing: content-box;
+                        margin: 15px 0;
+                        background-color: #EEF8FD;
+                        h4{
+                            span{
+                                position: relative;
+                                display: inline-block;
+                                width: 160px;
+                                height: 30px;
+                                line-height: 30px;
+                                padding: 0 20px;
+                                background-color: #55A6FF;
+                                i{
+                                    height: 11px;
+                                    width: 26px;
+                                    display: inline-block;
+                                    margin-left: 3px;
+                                    position: relative;
+                                    background: url(../images/vacations/vacations01.png) no-repeat -100px -430px; 
+                                }
+                                b{
+                                    position: absolute;
+                                    right: -15px;
+                                    border-color: #55A6FF transparent transparent #55A6FF;
+                                    border-style: solid;
+                                    border-width: 30px 15px 0 15px;
+                                }
+                            }
+                        }
+                        .content{
+                            overflow: hidden;
+                            padding: 20px 0 10px;
+                            .travel_vane_arrleft,
+                            .travel_vane_arrright {
+                                float: left;
+                                width: 19px;
+                                height: 180px;
+                                position: relative;
+                                cursor: pointer;
+                                i,b{
+                                    width: 0;
+                                    height: 0;
+                                    font-size: 0;
+                                    line-height: 0;
+                                    overflow: hidden;
+                                    border-top: 19px dashed transparent;
+                                    border-bottom: 19px dashed transparent;
+                                    position: absolute;
+                                    top: 50%;
+                                    margin-top: -19px;
+                                }
+                            }
+
+                            .travel_vane_arrleft {
+                                margin: 0 10px 0 15px;
+                            }
+
+                            .travel_vane_arrright {
+                                margin: 0 15px 0 10px;
+                            }
+
+                            .travel_vane_arrleft i {
+                                border-right: 19px solid #55a6ff;
+                                left: 0;
+                            }
+
+                            .travel_vane_arrleft b {
+                                border-right: 19px solid #eef8fd;
+                                left: 3px;
+                            }
+
+                            .travel_vane_arrright i {
+                                border-left: 19px solid #55a6ff;
+                                right: 0;
+                            }
+
+                            .travel_vane_arrright b {
+                                border-left: 19px solid #eef8fd;
+                                right: 3px;
+                            }
+                            .travel_vane_scrollbox {
+                                float: left;
+                                width: 720px;
+                                overflow: hidden;
+                                position: relative;
+                                height: 180px;
+                            }
+
+                            .travel_vane_scrollopt {
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                            }
+
+                            .travel_vane_scrollbox a {
+                                float: left;
+                                display: inline;
+                                width: 170px;
+                                height: 180px;
+                                position: relative;
+                                margin: 0 5px;
+                            }
+
+                            .travel_vane_scrollbox a:hover {
+                                text-decoration: none;
+                            }
+
+                            .travel_vane_scrollbox a img {
+                                width: 170px;
+                                height: 180px;
+                                border-radius: 10px;
+                            }
+                        }
+                    }
+                    .index-opt{
+                        height: 72px;
+                        background-color: #eef8fd;
+                        .index-opt-security{
+                            position: relative;
+                            overflow: hidden;
+                            .img-security{
+                                padding: 6px 0 0 10px;
+                            }
+                            ul{
+                                box-sizing: content-box;
+                                width: 395px;
+                                margin: 17px 0 0px 25px;
+                                overflow: hidden;
+                                border-right: 1px solid #ccc;
+                                li{
+                                    font-size: 12px;
+                                    float: left;
+                                    width: 130px;
+                                    height: 24px;
+                                    padding-bottom: 6px;
+                                    line-height: 18px;
+                                    i{
+                                        width: 12px;
+                                        height: 12px;
+                                        display: inline-block;
+                                        margin: 2px 5px 0 0;
+                                        vertical-align: top;
+                                        background: url(../images/vacations/vacations01.png) no-repeat -240px -470px;
+                                    }
+                                }
+                            }
+                        }
+                        .announce{
+                            width: 300px;
+                            padding-left: 15px;
+                            font-size: 12px;
+                            .org{
+                                padding-top: 16px;
+                                margin-bottom: 6px; 
+                                span{
+                                    color: red;
+                                } 
+                            }
+                            .notice{
+                                color: #666;
+                                .text{
+                                    width: 205px;
+                                    height: 18px;
+                                    line-height: 18px;
+                                    overflow: hidden;
+                                    a{
+                                        display: inline-block;
+                                        width: 136px;
+                                        white-space: nowrap;
+                                        text-overflow: ellipsis;
+                                        overflow: hidden;
+                                    }
+                                    em{
+                                        position: relative;
+                                        top: -5px;
+                                        font-weight: normal;
+                                    }
+                                }
+                            }
+                            .oth{
+                                padding-left: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .adv{
+        overflow: hidden;
+        padding: 25px 0;
+        a{
+            float: left;
+        }
+    }
+    .index-product{
+        overflow: hidden;
+        .title{
+            overflow: hidden;
+            border-bottom: 2px solid #63B7E3 ;
+            .title-img{
+                float: left;
+                width: 210px;
+                height: 0;
+                overflow: hidden;
+                padding-top: 40px;
+                position: relative;
+                background-color: #fff;
+                padding-right: 25px;
+                background: url(../images/vacations/vacations01.png) no-repeat -225px -84px;
+            }
+            dl{
+                overflow: hidden;
+                height: 42px;
+                padding: 15px 0;
+                dd{
+                    position: relative;
+                    float: left;
+                    padding: 0 18px;
+                    font-size: 12px;
+                    border-right: 1px solid #aaa;
+                    text-align: center;
+                    cursor: pointer;
+                    line-height: 1;
+                    &.last{
+                        border-right: none;
+                    }
+                    &.current{
+                        font-weight: bold;
+                        i {
+                            width: 0;
+                            height: 0;
+                            overflow: hidden;
+                            line-height: 0;
+                            font-size: 0;
+                            border-width: 0 7px 7px;
+                            border-style: solid dashed;
+                            position: absolute;
+                            bottom: -13px;
+                            left: 40%;
+                            z-index: 1;   
+                        }
+                        b {
+                            width: 0;
+                            height: 0;
+                            overflow: hidden;
+                            line-height: 0;
+                            font-size: 0;
+                            border-width: 0 7px 7px;
+                            border-style: solid dashed;
+                            position: absolute;
+                            bottom: -16px;
+                            left: 40%;
+                            z-index: 55;
+                            border-color: #fff transparent;
+                            // margin-bottom: -4px;
+                        }
+                    }
+                }
+                dt{
+                    position: relative;
+                    float: left;
+                    top: -8px;
+                    // line-height: 42px;/
+                    font-size: 12px;
+                    padding: 0 18px;
+                    font-weight: normal;
+                    color: #34A591;
+                    a{
+                        i{
+                            display: inline-block;
+                            width: 12px;
+                            height: 20px;
+                            position: relative;
+                            background: url(../images/vacations/vacations01.png) no-repeat -400px -378px;
+                        }
+                    }
+                }
+            }
+        }
+        .content{
+            position: relative;
+            padding-bottom: 30px;
+            // width: 300%;
+            .img{
+                width: 210px;
+            }
+            ul{
+                float: left;
+                width: 970px;
+                display: none;
+                li{
+                    box-sizing: content-box;
+                    padding: 4px 9px 0 9px;
+                    margin: 14px 0 0 10px;
+                    float: left;
+                    border: 2px solid #fff;
+                    .img-intr{
+                        position: relative;
+                        p{
+                            position: absolute;
+                            bottom: 0px;
+                            color: #FF9813;
+                            font-size: 12px;
+                            i{
+                                padding: 0 5px;
+                                border-radius: 10px;
+                                color: white;
+                                background-color: #FF9813;
+                            }
+                        }
+                    }
+                    h5{
+                        position: relative;
+                        height: 40px;
+                        line-height: 20px;
+                        a{
+                            white-space: pre-wrap;
+                        }
+                        i{
+                            position: absolute;
+                            height: 20px;
+                            width: 51px;
+                            background-color: #fff;
+                            top: 21px;
+                            right: 20px;
+                            overflow: hidden;
+                            background: url(../images/vacations/vacations01.png) no-repeat -211px -296px;
+                        }
+                    }
+                    .price{
+                        color: #f60;
+                        font-size: 18px;
+                        line-height: 20px;
+                        height: 20px;
+                        float: left;
+                        dfn{
+                            font-style: normal;
+                            font-size: 12px;
+                            font-family: Arial !important;
+                            vertical-align: 4px;
+                            padding-right: 2px;
+                        }
+                        em{
+                            font-style: normal;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                li:nth-child(1){
+                    width: 452px;
+                    .img-intr{
+                        img{
+                            width: 452px;
+                            height: 270px;
+                        }
+                    }
+                }
+                li:nth-child(2),li:nth-child(3),li:nth-child(4),li:nth-child(5),li:nth-child(6),li:nth-child(7),li:nth-child(8),li:nth-child(9){
+                    width: 210px;
+                    .img-intr{
+                        img{
+                            width: 210px;
+                            height: 100px;
+                        }
+                    }
+                }
+            }
+            .dot{
+                position: absolute;
+                right: 0;
+                bottom: 0px;
+                text-align: center;
+                line-height: 20px;
+                a{
+                    float: left;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 10px;
+                    color: #ffffff;
+                    background: url(../images/vacations/vacations01.png) no-repeat 0 -630px;
+                    &.current{
+                        background: url(../images/vacations/vacations01.png) no-repeat -30px -630px;
+                    }
+                }
+            }
+        }
+    }
+    .product-travel{
+        .title{
+            dl{
+                dd{
+                    &.current{
+                        font-weight: bold;
+                        i {
+                            border-color: #63B7E3 transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .demo-product{
+        margin: 20px 0 0 0;
+        .title{
+            border-color: #F9AF46;
+            .title-img{
+                background: url(../images/vacations/vacations01.png) no-repeat -225px -42px;
+            }
+            dl{
+                dd{
+                     &.current{
+                        font-weight: bold;
+                        i {
+                            border-color: #F9AF46 transparent;   
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
